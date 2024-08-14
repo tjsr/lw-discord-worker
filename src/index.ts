@@ -13,49 +13,90 @@ import {
   InteractionHandlerError,
   InteractionHandlerNotFound,
   InteractionHandlerTimedOut,
+  RegisteredCommand,
   SyncMode,
   UnauthorizedInteraction,
   UnknownApplicationCommandType,
   UnknownComponentType,
   UnknownInteractionType
 } from "@discord-interactions/core";
-import { Ping } from "./commands/Ping.js";
 
-export interface Env {
-  CLIENT_ID: string;
-  TOKEN: string;
-  PUBLIC_KEY: string;
-}
+import { Building } from "./commands/building";
+import CommandsEndpoint from "./endpoints/commands";
+import { Env } from "./types";
+import FileEndpoint from "./endpoints/file.js";
+import LWConfig from "./commands/lwconfig";
+import { Ping } from "./commands/Ping.js";
+import Setup from "./endpoints/setup";
+import { createDiscordApplication } from "./createApplication.js";
+
+const cache = new Map();
+let globalApp: DiscordApplication;
+
+// if (
+//   process.env["CLIENT_ID"] !== undefined &&
+//   process.env["TOKEN"] !== undefined &&
+//   process.env["PUBLIC_KEY"] !== undefined
+// ) {
+//   globalApp = createDiscordApplication(process.env.CLIENT_ID, process.env.TOKEN, process.env.PUBLIC_KEY, cache);
+//   await deleteLaunchCommands(globalApp);
+// }
+
+const configValues: Map<string, string> = new Map();
+configValues.set("testValue", "some value here");
 
 export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
-    if (request.method !== "POST") return new Response("Method not allowed", { status: 405 });
+    console.log(`Got request to ${request.url}`);
+    const setup = new Setup("/setup");
 
-    const cache = new Map();
+    const app: DiscordApplication =
+      globalApp ||
+      createDiscordApplication(
+        env.CLIENT_ID,
+        env.TOKEN,
+        env.PUBLIC_KEY,
+        cache,
+        setup.isRoute(request) ? SyncMode.Enabled : SyncMode.Disabled
+      );
 
-    const app = new DiscordApplication({
-      clientId: env.CLIENT_ID,
-      token: env.TOKEN,
-      publicKey: env.PUBLIC_KEY,
+    const commands: CommandsEndpoint = new CommandsEndpoint(app);
 
-      cache: {
-        get: async (key: string) => cache.get(key),
-        set: async (key: string, ttl: number, value: string) => {
-          cache.set(key, value);
-        }
-      },
+    if (setup.isRoute(request) || commands.isRoute(request)) {
+      await commands.listAvailableCommands();
+    }
 
-      syncMode: SyncMode.Disabled
-    });
+    const registeredCommands: RegisteredCommand[] = await app.commands.register(
+      new Building(),
+      new Ping(),
+      new LWConfig(configValues)
+    );
 
-    await app.commands.register(new Ping());
+    if (setup.isRoute(request) || commands.isRoute(request)) {
+      await commands.listRegisteredCommands(registeredCommands);
+      await commands.listPostCommands();
+    }
+
+    if (commands.isRoute(request)) {
+      return commands.handle(request, env, ctx);
+    }
 
     const signature = request.headers.get("x-signature-ed25519");
     const timestamp = request.headers.get("x-signature-timestamp");
 
-    const body = await request.text();
+    const fileHandler: FileEndpoint = new FileEndpoint();
+    if (fileHandler.isRoute(request)) {
+      return fileHandler.handle(request, env, ctx);
+    }
 
+    if (setup.isRoute(request)) {
+      setup.commandStatuses = commands.commandStatuses;
+      return setup.handle(request, env, ctx);
+    }
+
+    const body = await request.text();
     if (typeof body !== "string" || typeof signature !== "string" || typeof timestamp !== "string") {
+      console.log("Got a bad request");
       return new Response("Invalid request", { status: 400 });
     }
 

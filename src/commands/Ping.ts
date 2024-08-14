@@ -16,10 +16,14 @@ export class Ping implements ISlashCommand {
   public builder = new SlashCommandBuilder("ping", "Simple ping command.");
 
   public handler = async (ctx: SlashCommandContext): Promise<void> => {
+    console.log("Running ping command...");
     const button = await ctx.createComponent("pong");
 
+    console.log("Created component...");
     const now = Date.now();
 
+    console.log("Creating action row...");
+    const actionRow = new ActionRowBuilder().addComponents(button);
     return ctx.reply(
       new MessageBuilder(
         new EmbedBuilder(
@@ -27,7 +31,7 @@ export class Ping implements ISlashCommand {
             now - ctx.receivedAt.getTime()
           }ms\`\`--> Sending This Response (Total: \`\`${now - ctx.signedAt.getTime()}ms\`\`)`
         )
-      ).addComponents(new ActionRowBuilder().addComponents(button))
+      ).addComponents(actionRow)
     );
   };
 
