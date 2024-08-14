@@ -1,0 +1,6049 @@
+[
+  {
+    "Name": "Farmland",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07,
+    "ProductionTime": 31680
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07,
+    "ProductionTime": 32160
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07,
+    "ProductionTime": 32640
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07,
+    "ProductionTime": 33120
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07,
+    "ProductionTime": 33600
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07,
+    "ProductionTime": 34080
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07,
+    "ProductionTime": 34560
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07,
+    "ProductionTime": 35040
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07,
+    "ProductionTime": 35520
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07,
+    "ProductionTime": 36000
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07,
+    "ProductionTime": 36480
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07,
+    "ProductionTime": 36960
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07,
+    "ProductionTime": 37440
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07,
+    "ProductionTime": 37920
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07,
+    "ProductionTime": 38400
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07,
+    "ProductionTime": 38880
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07,
+    "ProductionTime": 39360
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07,
+    "ProductionTime": 39840
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07,
+    "UpgradePower": 23200,
+    "UpgradeOutput": 23040,
+    "ProductionTime": 40320
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07,
+    "Iron": 9300000,
+    "Food": 9300000,
+    "Coins": 2000000,
+    "Time": "19h50m38s",
+    "UpgradePower": 23760,
+    "UpgradeOutput": 23760,
+    "ProductionTime": 40800
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07,
+    "Iron": 13000000,
+    "Food": 4100000,
+    "Coins": 2600000,
+    "Time": "1d01h47m49s",
+    "UpgradePower": 32300,
+    "UpgradeOutput": 25200,
+    "ProductionTime": 41280
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07,
+    "Iron": 15800000,
+    "Food": 5300000,
+    "Coins": 3300000,
+    "Time": "1d09h32m09s",
+    "UpgradePower": 37700,
+    "UpgradeOutput": 25920,
+    "ProductionTime": 41760
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07,
+    "Iron": 19500000,
+    "Food": 6600000,
+    "Coins": 4100000,
+    "Time": "1d22h57m01s",
+    "UpgradePower": 43700,
+    "UpgradeOutput": 27360,
+    "ProductionTime": 42240
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07,
+    "ProductionTime": 42720
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07,
+    "ProductionTime": 43200
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07,
+    "ProductionTime": 43680
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07,
+    "ProductionTime": 44160
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07,
+    "ProductionTime": 44640
+  },
+  {
+    "Name": "Farmland",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07,
+    "ProductionTime": 45120
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07,
+    "ProductionTime": 31680
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07,
+    "ProductionTime": 32160
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07,
+    "ProductionTime": 32640
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07,
+    "ProductionTime": 33120
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07,
+    "ProductionTime": 33600
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07,
+    "ProductionTime": 34080
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07,
+    "ProductionTime": 34560
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07,
+    "ProductionTime": 35040
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07,
+    "ProductionTime": 35520
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07,
+    "ProductionTime": 36000
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07,
+    "ProductionTime": 36480
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07,
+    "ProductionTime": 36960
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07,
+    "ProductionTime": 37440
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07,
+    "ProductionTime": 37920
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07,
+    "ProductionTime": 38400
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07,
+    "ProductionTime": 38880
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07,
+    "ProductionTime": 39360
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07,
+    "ProductionTime": 39840
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07,
+    "ProductionTime": 40320
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07,
+    "UpgradePower": 27400,
+    "UpgradeOutput": 23760,
+    "ProductionTime": 40800
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07,
+    "Iron": 4100000,
+    "Food": 13000000,
+    "Coins": 2600000,
+    "Time": "1d01h47m49s",
+    "UpgradePower": 32300,
+    "UpgradeOutput": 25200,
+    "ProductionTime": 41280,
+    "XP": 860000
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07,
+    "Iron": 5300000,
+    "Food": 15800000,
+    "Coins": 3300000,
+    "Time": "1d09h32m09s",
+    "UpgradePower": 37700,
+    "UpgradeOutput": 25920,
+    "ProductionTime": 41760,
+    "XP": 1000000
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07,
+    "Iron": 11100000,
+    "Food": 33400000,
+    "Coins": 7100000,
+    "Time": "2d17h43m49s",
+    "UpgradePower": 43700,
+    "UpgradeOutput": 27360,
+    "ProductionTime": 42240,
+    "XP": 1100000
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07,
+    "Iron": 11100000,
+    "Food": 33400000,
+    "Coins": 7100000,
+    "Time": "2d17h43m49s",
+    "UpgradePower": 51500,
+    "UpgradeOutput": 28080,
+    "ProductionTime": 42720,
+    "XP": 1200000
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07,
+    "Iron": 15800000,
+    "Food": 47400000,
+    "Coins": 10200000,
+    "Time": "3d20h01m20s",
+    "UpgradePower": 60800,
+    "UpgradeOutput": 29520,
+    "ProductionTime": 43200,
+    "XP": 1400000
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07,
+    "ProductionTime": 43680
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07,
+    "ProductionTime": 44160
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07,
+    "ProductionTime": 44640
+  },
+  {
+    "Name": "Iron Mine",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07,
+    "ProductionTime": 45120
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07,
+    "ProductionTime": 31680
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07,
+    "ProductionTime": 32160
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07,
+    "ProductionTime": 32640
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07,
+    "ProductionTime": 33120
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07,
+    "ProductionTime": 33600
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07,
+    "ProductionTime": 34080
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07,
+    "ProductionTime": 34560
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07,
+    "ProductionTime": 35040
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07,
+    "ProductionTime": 35520
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07,
+    "ProductionTime": 36000
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07,
+    "ProductionTime": 36480
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07,
+    "ProductionTime": 36960
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07,
+    "ProductionTime": 37440
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07,
+    "ProductionTime": 37920
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07,
+    "ProductionTime": 38400
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07,
+    "ProductionTime": 38880
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07,
+    "ProductionTime": 39360
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07,
+    "ProductionTime": 39840
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07,
+    "ProductionTime": 40320
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07,
+    "ProductionTime": 40800
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 15480,
+    "ProductionTime": 41280
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07,
+    "Iron": 10200000,
+    "Food": 10200000,
+    "Coins": 3300000,
+    "Time": "1d09h32m09s",
+    "UpgradePower": 32200,
+    "UpgradeOutput": 16560,
+    "ProductionTime": 41760
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07,
+    "Iron": 13000000,
+    "Food": 13000000,
+    "Coins": 4100000,
+    "Time": "1d22h57m01s",
+    "UpgradePower": 37500,
+    "UpgradeOutput": 17820,
+    "ProductionTime": 42240
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07,
+    "Iron": 22300000,
+    "Food": 22300000,
+    "Coins": 7100000,
+    "Time": "2d17h43m49s",
+    "UpgradePower": 43500,
+    "UpgradeOutput": 18000,
+    "ProductionTime": 42720
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07,
+    "UpgradePower": 51300,
+    "ProductionTime": 43200
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07,
+    "ProductionTime": 43680
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07,
+    "ProductionTime": 44160
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07,
+    "ProductionTime": 44640
+  },
+  {
+    "Name": "Gold Mine",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07,
+    "ProductionTime": 45120
+  },
+  {
+    "Name": "1st Squad",
+    "Template": "Squad",
+    "FromLevel": 1,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "2nd Squad",
+    "Template": "Squad",
+    "FromLevel": 1,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "3rd Squad",
+    "Template": "Squad",
+    "FromLevel": 1,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "4th Squad",
+    "Template": "Squad",
+    "FromLevel": 1,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.009999999999999985
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.014999999999999986
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.019999999999999987
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.024999999999999988
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.02999999999999999
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.03499999999999999
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.03999999999999999
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.044999999999999984
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.04999999999999998
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.05499999999999998
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.05999999999999998
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.06499999999999997
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.06999999999999998
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.07499999999999998
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.07999999999999999
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.08499999999999999
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.09
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07,
+    "UpgradePower": 36900,
+    "General March Speed": 0.095
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07,
+    "UpgradePower": 45200,
+    "XP": 17000000,
+    "General March Speed": 0.1
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07,
+    "Iron": 39000000,
+    "Food": 39000000,
+    "Coins": 6200000,
+    "Time": "4d23h03m43s",
+    "UpgradePower": 55000,
+    "XP": 24000000,
+    "General March Speed": 0.105
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07,
+    "Iron": 50200000,
+    "Food": 50200000,
+    "Coins": 8000000,
+    "Time": "6d10h46m49s",
+    "UpgradePower": 66100,
+    "XP": 31000000,
+    "General March Speed": 0.11
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.115
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.12000000000000001
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.125
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.13
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.135
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.14
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.14500000000000002
+  },
+  {
+    "Name": "Squad",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07,
+    "General March Speed": 0.15000000000000002
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07,
+    "UpgradePower": 118600,
+    "Unit count": 7200
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07,
+    "Iron": 81800000,
+    "Food": 241800000,
+    "Coins": 65100000,
+    "Time": "21d11h19m25s",
+    "UpgradePower": 140200,
+    "XP": 24000000,
+    "Unit count": 7400
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drill Ground",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07,
+    "ProductionTime": 31680
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07,
+    "ProductionTime": 32160
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07,
+    "ProductionTime": 32640
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07,
+    "ProductionTime": 33120
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07,
+    "ProductionTime": 33600
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07,
+    "ProductionTime": 34080
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07,
+    "ProductionTime": 34560
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07,
+    "ProductionTime": 35040
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07,
+    "ProductionTime": 35520
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07,
+    "ProductionTime": 36000
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07,
+    "ProductionTime": 36480
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07,
+    "ProductionTime": 36960
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07,
+    "ProductionTime": 37440
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07,
+    "ProductionTime": 37920
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07,
+    "ProductionTime": 38400
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07,
+    "ProductionTime": 38880
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07,
+    "ProductionTime": 39360
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07,
+    "ProductionTime": 39840
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07,
+    "ProductionTime": 40320
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07,
+    "ProductionTime": 40800
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07,
+    "UpgradePower": 32200,
+    "UpgradeOutput": 128160,
+    "ProductionTime": 41280
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07,
+    "Iron": 10200,
+    "Food": 10200,
+    "Coins": 3300000,
+    "Time": "1d09h32m09s",
+    "UpgradePower": 37500,
+    "UpgradeOutput": 138240,
+    "ProductionTime": 41760,
+    "XP": 1000000
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07,
+    "UpgradePower": 43500,
+    "UpgradeOutput": 148320,
+    "ProductionTime": 42240
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07,
+    "Iron": 22300000,
+    "Food": 22300000,
+    "Coins": 7100000,
+    "Time": "2d17h43m49s",
+    "UpgradePower": 51300,
+    "UpgradeOutput": 162000,
+    "ProductionTime": 42720,
+    "XP": 1200000
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07,
+    "Iron": 31600000,
+    "Food": 31600000,
+    "Coins": 10200000,
+    "Time": "3d20h01m20s",
+    "UpgradePower": 60600,
+    "UpgradeOutput": 175680,
+    "ProductionTime": 43200,
+    "XP": 1400000
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07,
+    "ProductionTime": 43680
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07,
+    "ProductionTime": 44160
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07,
+    "ProductionTime": 44640
+  },
+  {
+    "Name": "Training Base",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07,
+    "ProductionTime": 45120
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 4,
+    "ProductionTime": 31680
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 6,
+    "ProductionTime": 32160
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 8,
+    "ProductionTime": 32640
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 10,
+    "ProductionTime": 33120
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 12,
+    "ProductionTime": 33600
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 14,
+    "ProductionTime": 34080
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 16,
+    "ProductionTime": 34560
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 18,
+    "ProductionTime": 35040
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 20,
+    "ProductionTime": 35520
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 22,
+    "ProductionTime": 36000
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 24,
+    "ProductionTime": 36480
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 26,
+    "ProductionTime": 36960
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 28,
+    "ProductionTime": 37440
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 30,
+    "ProductionTime": 37920
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 32,
+    "ProductionTime": 38400
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 34,
+    "ProductionTime": 38880
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 36,
+    "ProductionTime": 39360
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 38,
+    "ProductionTime": 39840
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 40,
+    "ProductionTime": 40320
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07,
+    "UpgradePower": 38400,
+    "UpgradeOutput": 42,
+    "ProductionTime": 40800
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07,
+    "UpgradePower": 45600,
+    "UpgradeOutput": 44,
+    "ProductionTime": 41280
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07,
+    "UpgradePower": 53700,
+    "UpgradeOutput": 46,
+    "ProductionTime": 41760
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07,
+    "UpgradePower": 62700,
+    "UpgradeOutput": 48,
+    "ProductionTime": 42240
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07,
+    "UpgradePower": 74300,
+    "UpgradeOutput": 50,
+    "ProductionTime": 42720
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 52,
+    "ProductionTime": 43200
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 54,
+    "ProductionTime": 43680
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 56,
+    "ProductionTime": 44160
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 58,
+    "ProductionTime": 44640
+  },
+  {
+    "Name": "Smelter",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 60,
+    "ProductionTime": 45120
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07,
+    "ProductionTime": 31680
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07,
+    "ProductionTime": 32160
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07,
+    "ProductionTime": 32640
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07,
+    "ProductionTime": 33120
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07,
+    "ProductionTime": 33600
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07,
+    "ProductionTime": 34080
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07,
+    "ProductionTime": 34560
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07,
+    "ProductionTime": 35040
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07,
+    "ProductionTime": 35520
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07,
+    "ProductionTime": 36000
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07,
+    "ProductionTime": 36480
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07,
+    "ProductionTime": 36960
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07,
+    "ProductionTime": 37440
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07,
+    "ProductionTime": 37920
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07,
+    "ProductionTime": 38400
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07,
+    "ProductionTime": 38880
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07,
+    "ProductionTime": 39360
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07,
+    "ProductionTime": 39840
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07,
+    "UpgradePower": 32100,
+    "UpgradeOutput": 60,
+    "ProductionTime": 40320
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07,
+    "Iron": 13000000,
+    "Food": 13000000,
+    "Coins": 6200000,
+    "Time": "1d15h41m15s",
+    "UpgradePower": 38400,
+    "UpgradeOutput": 64,
+    "ProductionTime": 40800,
+    "XP": 2600000
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07,
+    "Iron": 16700000,
+    "Food": 16700000,
+    "Coins": 8000000,
+    "Time": "2d03h35m37s",
+    "UpgradePower": 45600,
+    "UpgradeOutput": 66,
+    "ProductionTime": 41280,
+    "XP": 3400000
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07,
+    "Iron": 21300000,
+    "Food": 21300000,
+    "Coins": 10200000,
+    "Time": "2d19h04m18s",
+    "UpgradePower": 53700,
+    "UpgradeOutput": 70,
+    "ProductionTime": 41760,
+    "XP": 4100000
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07,
+    "UpgradePower": 62700,
+    "UpgradeOutput": 72,
+    "ProductionTime": 42240
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07,
+    "Iron": 44600000,
+    "Food": 44600000,
+    "Coins": 21300000,
+    "Time": "5d11h27m37s",
+    "UpgradePower": 74300,
+    "UpgradeOutput": 76,
+    "ProductionTime": 42720,
+    "XP": 5000000
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07,
+    "ProductionTime": 43200
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07,
+    "ProductionTime": 43680
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07,
+    "ProductionTime": 44160
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07,
+    "ProductionTime": 44640
+  },
+  {
+    "Name": "Material Workshop",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07,
+    "ProductionTime": 45120
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Builder's Hut",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "SubmissionSource": "Time from https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07,
+    "Iron": 1900000,
+    "Food": 1900000,
+    "Coins": 600000,
+    "Time": "7.4h"
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "SubmissionSource": "Time from https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07,
+    "Iron": 3200000,
+    "Food": 3200000,
+    "Coins": 1000000,
+    "Time": "9.6h"
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "SubmissionSource": "Time from https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07,
+    "Iron": 3500000,
+    "Food": 3500000,
+    "Coins": 1100000,
+    "Time": "12.5h"
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "SubmissionSource": "Time from https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07,
+    "Iron": 4800000,
+    "Food": 4800000,
+    "Coins": 1500000,
+    "Time": "16.2h"
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "SubmissionSource": "Time from https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07,
+    "Iron": 6600000,
+    "Food": 6600000,
+    "Coins": 2100000,
+    "Time": "22.7h"
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "SubmissionSource": "Time from https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07,
+    "Iron": 11700000,
+    "Food": 11700000,
+    "Coins": 3800000,
+    "Time": "1.3d"
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "SubmissionSource": "Time from https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07,
+    "Iron": 15600000,
+    "Food": 15600000,
+    "Coins": 4300000,
+    "Time": "1.8d"
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 28000000,
+    "Food": 28000000,
+    "Coins": 8900000,
+    "Time": "2.6d"
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 33000000,
+    "Food": 33000000,
+    "Coins": 11000000,
+    "Time": "3.6d"
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 60000000,
+    "Food": 60000000,
+    "Coins": 19000000,
+    "Time": "5.1d"
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "SubmissionSource": "Time from https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07,
+    "Iron": 79300000,
+    "Food": 79300000,
+    "Coins": 25600000,
+    "Time": "6.6d"
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "SubmissionSource": "Time from https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07,
+    "Iron": 105600000,
+    "Food": 105600000,
+    "Coins": 33600000,
+    "Time": "8.6d"
+  },
+  {
+    "Name": "Headquarters",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "SubmissionSource": "Time from https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07,
+    "Iron": 131600000,
+    "Food": 131600000,
+    "Coins": 41300000,
+    "Time": "11.1d"
+  },
+  {
+    "Name": "Headquarters",
+    "Building Prerequisite": "Alliance Center",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "SubmissionSource": "Time from https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07,
+    "Iron": 158900000,
+    "Food": 158900000,
+    "Coins": 50400000,
+    "Time": "15.6d"
+  },
+  {
+    "Name": "Headquarters",
+    "Building Prerequisite": "Barracks",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "SubmissionSource": "Time from https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07,
+    "Iron": 270000000,
+    "Food": 270000000,
+    "Coins": 86500000,
+    "Time": "21.9d",
+    "UpgradePower": 166000
+  },
+  {
+    "Name": "Headquarters",
+    "Building Prerequisite": "Hospital",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07,
+    "Iron": 374000000,
+    "Food": 374000000,
+    "Coins": 121500000,
+    "Time": "30d16h10m35s",
+    "UpgradePower": 197900
+  },
+  {
+    "Name": "Headquarters",
+    "Building Prerequisite": "Wall",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "SubmissionSource": "Time from https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07,
+    "Iron": 487600000,
+    "Food": 487600000,
+    "Coins": 156000000,
+    "Time": "42.9d",
+    "UpgradePower": 234600,
+    "Hero HP": 13500,
+    "Hero Attack": 642.9
+  },
+  {
+    "Name": "Headquarters",
+    "Building Prerequisite": "Barracks",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07,
+    "Iron": 688200000,
+    "Food": 688200000,
+    "Coins": 223200000,
+    "Time": "60d02h25m20s",
+    "UpgradePower": 278000,
+    "XP": 160000000,
+    "Hero HP": 14000,
+    "Hero Attack": 666.7
+  },
+  {
+    "Name": "Headquarters",
+    "Building Prerequisite": "Tank Center",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "SubmissionSource": "Time from https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 925000000,
+    "Food": 925000000,
+    "Coins": 305200000,
+    "Time": "78.1d"
+  },
+  {
+    "Name": "Headquarters",
+    "Building Prerequisite": "Drill Ground",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "SubmissionSource": "Time from https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 1280000000,
+    "Food": 1280000000,
+    "Coins": 425000000,
+    "Time": "101.6d"
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 290
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 300
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 310
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 320
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 330
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 340
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 350
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 360
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 370
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 380
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 390
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 400
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 410
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 420,
+    "Unit Training cap": 5
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 430,
+    "Unit Training cap": 5
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 440,
+    "Unit Training cap": 6
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 450,
+    "Unit Training cap": 6
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07,
+    "UpgradePower": 40800,
+    "UpgradeOutput": 460,
+    "Unit Training cap": 6
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07,
+    "Iron": 27900000,
+    "Food": 27900000,
+    "Coins": 11100000,
+    "Time": "3d19h35m10s",
+    "UpgradePower": 49800,
+    "UpgradeOutput": 470,
+    "XP": 17000000,
+    "Unit Training cap": 7
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07,
+    "Iron": 39000000,
+    "Food": 39000000,
+    "Coins": 15800000,
+    "Time": "4d23h03m43s",
+    "UpgradePower": 60400,
+    "UpgradeOutput": 480,
+    "XP": 24000000,
+    "Unit Training cap": 7
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 490,
+    "Unit Training cap": 7
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 500,
+    "Unit Training cap": 7
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 510,
+    "Unit Training cap": 8
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07,
+    "UpgradePower": 120600,
+    "UpgradeOutput": 520,
+    "Unit Training cap": 8
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07,
+    "Iron": 186000000,
+    "Food": 186000000,
+    "Coins": 75300000,
+    "Time": "23d00h07m56s",
+    "UpgradePower": 143800,
+    "UpgradeOutput": 530,
+    "Unit Training cap": 8
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07,
+    "Iron": 241800000,
+    "Food": 241800000,
+    "Coins": 102300000,
+    "Time": "32d04h59m07s",
+    "UpgradePower": 170400,
+    "UpgradeOutput": 540,
+    "XP": 540000000,
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07,
+    "Iron": 344100000,
+    "Food": 344100000,
+    "Coins": 139500000,
+    "Time": "45d02h10m45s",
+    "UpgradePower": 201900,
+    "UpgradeOutput": 550,
+    "XP": 600000000,
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 560,
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Barracks",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": 570,
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07,
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07,
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07,
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07,
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07,
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07,
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07,
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07,
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 470000,
+    "Food": 1400000,
+    "Coins": 370000,
+    "Time": "5.5d",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 790000,
+    "Food": 2400000,
+    "Coins": 630000,
+    "Time": "7.2h",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 870000,
+    "Food": 2600000,
+    "Coins": 700000,
+    "Time": "9.4h",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 1200000,
+    "Food": 3700000,
+    "Coins": 980000,
+    "Time": "12.2h",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 1700000,
+    "Food": 5100000,
+    "Coins": 1400000,
+    "Time": "17.0h",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 3000000,
+    "Food": 9100000,
+    "Coins": 2400000,
+    "Time": "1.0d",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 4000000,
+    "Food": 12000000,
+    "Coins": 3200000,
+    "Time": "1.3d",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 6900000,
+    "Food": 21000000,
+    "Coins": 5500000,
+    "Time": "1.9d",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 8300000,
+    "Food": 25000000,
+    "Coins": 6600000,
+    "Time": "2.7d",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 15000000,
+    "Food": 45000000,
+    "Coins": 12000000,
+    "Time": "3.8d",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 21000000,
+    "Food": 63000000,
+    "Coins": 17000000,
+    "Time": "4.9d",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 27000000,
+    "Food": 82000000,
+    "Coins": 22000000,
+    "Time": "6.4d",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 34000000,
+    "Food": 100000000,
+    "Coins": 27000000,
+    "Time": "8.3d",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 43000000,
+    "Food": 130000000,
+    "Coins": 34000000,
+    "Time": "11.7d",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 72000000,
+    "Food": 220000000,
+    "Coins": 58000000,
+    "Time": "16.4d",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 100000000,
+    "Food": 300000000,
+    "Coins": 81000000,
+    "Time": "23.0d",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 130000000,
+    "Food": 390000000,
+    "Coins": 110000000,
+    "Time": "32.2d",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 180000000,
+    "Food": 550000000,
+    "Coins": 150000000,
+    "Time": "45.0d",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 260000000,
+    "Food": 770000000,
+    "Coins": 210000000,
+    "Time": "58.6d",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Hospital",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "Iron": 360000000,
+    "Food": 1100000000,
+    "Coins": 290000000,
+    "Time": "76.2d",
+    "Unit Training cap": 9
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Drone Center",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "1st Tech Center",
+    "Template": "Tech Center",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "2nd Tech Center",
+    "Template": "Tech Center",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07,
+    "Iron": 650000,
+    "Food": 650000,
+    "Coins": 210000
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07,
+    "Iron": 2800000,
+    "Food": 2800000,
+    "Coins": 520000
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07,
+    "Iron": 3000000,
+    "Food": 3000000,
+    "Coins": 890000
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07,
+    "Iron": 5600000,
+    "Food": 5600000,
+    "Coins": 960000
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07,
+    "Iron": 5800000,
+    "Food": 5800000,
+    "Coins": 1700000
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07,
+    "Iron": 10200000,
+    "Food": 10200000,
+    "Coins": 1800000
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07,
+    "Iron": 13200000,
+    "Food": 13200000,
+    "Coins": 3100000
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07,
+    "Iron": 48600000,
+    "Food": 48600000,
+    "Coins": 15800000
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07,
+    "Iron": 67800000,
+    "Food": 67800000,
+    "Coins": 21300000
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07,
+    "Iron": 89300000,
+    "Food": 89300000,
+    "Coins": 28200000
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07,
+    "Iron": 113400000,
+    "Food": 113400000,
+    "Coins": 35900000
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07,
+    "Iron": 140200000,
+    "Food": 140200000,
+    "Coins": 44800000
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07,
+    "Iron": 233600000,
+    "Food": 233600000,
+    "Coins": 73800000
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07,
+    "Iron": 327000000,
+    "Food": 327000000,
+    "Coins": 102800000
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07,
+    "Iron": 492900000,
+    "Food": 492900000,
+    "Coins": 13500000
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07,
+    "Iron": 598400000,
+    "Food": 598400000,
+    "Coins": 196300000,
+    "Time": "37d13h48m58s"
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07,
+    "Iron": 841500000,
+    "Food": 841500000,
+    "Coins": 271100000
+  },
+  {
+    "Name": "Tech Center",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07,
+    "Iron": 26000000,
+    "Food": 79000000,
+    "Coins": 25100000,
+    "Time": "7d19h48m01s",
+    "UpgradePower": 85500,
+    "XP": 18000000,
+    "Help Received": 16
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07,
+    "Iron": 44600000,
+    "Food": 130200000,
+    "Coins": 42700000,
+    "Time": "10d22h55m13s",
+    "UpgradePower": 101800,
+    "XP": 20000000,
+    "Help Received": 17
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alliance Center",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tavern",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Tank Center",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Aircraft Center",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Missile Center",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07,
+    "Iron": 750000,
+    "Food": 250000,
+    "Coins": 160000
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07,
+    "Iron": 4800000,
+    "Food": 1500000,
+    "Coins": 980000
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07,
+    "Iron": 372000000,
+    "Food": 121000000,
+    "Coins": 80000000
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wall",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "SubmissionSource": "https://discord.com/channels/1141583924468908043/1227038692267393065/1272225514358312960",
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Coin Vault",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Food Warehouse",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Iron Warehouse",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Recon Plane",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alert Tower",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Wild Rhythm",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Arena",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Decoration Gallery",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1925-08-16T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1925-12-14T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1926-04-13T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1926-08-11T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1926-12-09T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1927-04-08T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1927-08-06T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1927-12-04T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1928-04-02T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1928-07-31T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1928-11-28T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1929-03-28T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1929-07-26T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1929-11-23T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1930-03-23T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1930-07-21T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1930-11-18T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1931-03-18T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1931-07-16T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1931-11-13T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07,
+    "UpgradePower": 45600,
+    "UpgradeOutput": "1932-03-12T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07,
+    "Iron": 21300000,
+    "Coins": 10200000,
+    "Time": "2d19h04m18s",
+    "UpgradePower": 53700,
+    "UpgradeOutput": "1932-07-10T00:00:00.000Z",
+    "ProductionTime": "1d00h00m00s"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1932-11-07T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1933-03-07T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1933-07-05T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1933-11-02T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1934-03-02T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1934-06-30T00:00:00.000Z"
+  },
+  {
+    "Name": "Component Factory",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07,
+    "UpgradeOutput": "1934-10-28T00:00:00.000Z"
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 14,
+    "ToLevel": 15,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 15,
+    "ToLevel": 16,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 16,
+    "ToLevel": 17,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 17,
+    "ToLevel": 18,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 18,
+    "ToLevel": 19,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 19,
+    "ToLevel": 20,
+    "RssReductionData": -0.07,
+    "UpgradePower": 48300
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 20,
+    "ToLevel": 21,
+    "RssReductionData": -0.07,
+    "Iron": 67800000,
+    "Food": 22300000,
+    "Coins": 7200000,
+    "Time": "5d18h54m20s",
+    "UpgradePower": 58800
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 21,
+    "ToLevel": 22,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 22,
+    "ToLevel": 23,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 23,
+    "ToLevel": 24,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 26,
+    "ToLevel": 27,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 27,
+    "ToLevel": 28,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 28,
+    "ToLevel": 29,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Gear Factory",
+    "FromLevel": 29,
+    "ToLevel": 30,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alert Tower",
+    "Building Prerequisite": "Lv. 22 Headquarters",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07,
+    "Iron": 45570,
+    "Food": 45570,
+    "UpgradePower": 1200
+  },
+  {
+    "Name": "Alert Tower",
+    "Building Prerequisite": "Lv. 23 Headquarters",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07,
+    "Iron": 61380,
+    "Food": 61380,
+    "Time": "1h01m06s",
+    "UpgradePower": 1800
+  },
+  {
+    "Name": "Alert Tower",
+    "Building Prerequisite": "Lv. 23 Headquarters",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07,
+    "Iron": 82770,
+    "Food": 82770,
+    "Time": "1h21m54s",
+    "UpgradePower": 2400
+  },
+  {
+    "Name": "Alert Tower",
+    "Building Prerequisite": "Lv. 25 Headquarters",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07,
+    "Iron": 148800,
+    "Food": 148800,
+    "Time": "1h48m14s",
+    "UpgradePower": 3000
+  },
+  {
+    "Name": "Alert Tower",
+    "Building Prerequisite": "Lv. 26 Headquarters",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07,
+    "Iron": 381300,
+    "Food": 381300,
+    "Time": "3h07m12s",
+    "UpgradePower": 4000
+  },
+  {
+    "Name": "Alert Tower",
+    "Building Prerequisite": "Lv. 27 Headquarters",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07,
+    "Iron": 613800,
+    "Food": 613800,
+    "Time": "5h04m12s",
+    "UpgradePower": 5200
+  },
+  {
+    "Name": "Alert Tower",
+    "Building Prerequisite": "Lv. 28 Headquarters",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alert Tower",
+    "Building Prerequisite": "Lv. 29 Headquarters",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Alert Tower",
+    "Building Prerequisite": "Lv. 30 Headquarters",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Recon Plane",
+    "Building Prerequisite": "Lv. 2 Alert Tower",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "RssReductionData": -0.07,
+    "Iron": 70,
+    "Food": 70,
+    "Time": "0h0m12s",
+    "UpgradePower": 600
+  },
+  {
+    "Name": "Recon Plane",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Recon Plane",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Recon Plane",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Recon Plane",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Recon Plane",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Recon Plane",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Recon Plane",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Recon Plane",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Recon Plane",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Recon Plane",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Recon Plane",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Recon Plane",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "RssReductionData": -0.07
+  },
+  {
+    "Name": "Virus Research Institute",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "ToLevel": 1,
+    "SubmissionSource": "Akashra",
+    "UpgradePower": 400,
+    "Virus Resistance": 100
+  },
+  {
+    "Name": "Virus Research Institute",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "SubmissionSource": "Akashra",
+    "Time": "12m30s",
+    "UpgradePower": 800,
+    "XP": 110000,
+    "Virus Resistance": 200
+  },
+  {
+    "Name": "Virus Research Institute",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "SubmissionSource": "Akashra",
+    "Time": "18m45s",
+    "UpgradePower": 1300,
+    "XP": 160000,
+    "Immune Proteins": 20832,
+    "Virus Resistance": 300
+  },
+  {
+    "Name": "Virus Research Institute",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "SubmissionSource": "Akashra",
+    "Time": "28m08s",
+    "UpgradePower": 2000,
+    "XP": 240000,
+    "Immune Proteins": 41664,
+    "Virus Resistance": 400
+  },
+  {
+    "Name": "Virus Research Institute",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "SubmissionSource": "Akashra",
+    "Time": "42m12s",
+    "UpgradePower": 3000,
+    "XP": 360000,
+    "Immune Proteins": 83328,
+    "Virus Resistance": 500
+  },
+  {
+    "Name": "Virus Research Institute",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "SubmissionSource": "Akashra",
+    "Time": "1h03m17s",
+    "UpgradePower": 4200,
+    "XP": 550000,
+    "Immune Proteins": 116622,
+    "Virus Resistance": 750
+  },
+  {
+    "Name": "Virus Research Institute",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "SubmissionSource": "Akashra",
+    "Time": "1h34m56s",
+    "UpgradePower": 5600,
+    "XP": 820000,
+    "Immune Proteins": 151683,
+    "Virus Resistance": 1000
+  },
+  {
+    "Name": "Virus Research Institute",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "SubmissionSource": "Akashra",
+    "Time": "2h22m23s",
+    "UpgradePower": 7100,
+    "XP": 1200000,
+    "Immune Proteins": 182001,
+    "Virus Resistance": 1250
+  },
+  {
+    "Name": "Virus Research Institute",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "SubmissionSource": "Akashra",
+    "Time": "3h33m35s",
+    "UpgradePower": 8800,
+    "XP": 1800000,
+    "Immune Proteins": 218364,
+    "Virus Resistance": 1500
+  },
+  {
+    "Name": "Virus Research Institute",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "SubmissionSource": "Akashra",
+    "Time": "5h20m22s",
+    "UpgradePower": 10700,
+    "XP": 2800000,
+    "Immune Proteins": 262074,
+    "Virus Resistance": 1750
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 10,
+    "ToLevel": 11
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 11,
+    "ToLevel": 12
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 12,
+    "ToLevel": 13
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 13,
+    "ToLevel": 14
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 14,
+    "ToLevel": 15
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 15,
+    "ToLevel": 16
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 16,
+    "ToLevel": 17
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 17,
+    "ToLevel": 18
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 18,
+    "ToLevel": 19
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 19,
+    "ToLevel": 20
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 20,
+    "ToLevel": 21
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 21,
+    "ToLevel": 22
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 22,
+    "ToLevel": 23
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 23,
+    "ToLevel": 24
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 24,
+    "ToLevel": 25,
+    "UpgradePower": 69200
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 25,
+    "ToLevel": 26,
+    "Time": "1d00h32m04s",
+    "UpgradePower": 75600,
+    "XP": 43000000,
+    "Immune Proteins": 2000000
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 26,
+    "ToLevel": 27
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 27,
+    "ToLevel": 28
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 28,
+    "ToLevel": 29
+  },
+  {
+    "Name": "Virus Research Institute",
+    "FromLevel": 29,
+    "ToLevel": 30
+  },
+  {
+    "Name": "Protein Farm",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "ToLevel": 1,
+    "SubmissionSource": "Akashra",
+    "UpgradePower": 100,
+    "UpgradeOutput": 720
+  },
+  {
+    "Name": "Protein Farm",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "SubmissionSource": "Akashra",
+    "Time": "6m15s",
+    "UpgradePower": 200,
+    "UpgradeOutput": 1440,
+    "XP": 27000,
+    "Mutant Crystals": 1302
+  },
+  {
+    "Name": "Protein Farm",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "SubmissionSource": "Akashra",
+    "Time": "9m23s",
+    "UpgradePower": 400,
+    "UpgradeOutput": 2160,
+    "XP": 41000,
+    "Mutant Crystals": 2604
+  },
+  {
+    "Name": "Protein Farm",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "SubmissionSource": "Akashra",
+    "Time": "14m04s",
+    "UpgradePower": 600,
+    "UpgradeOutput": 2880,
+    "XP": 61000,
+    "Mutant Crystals": 5208
+  },
+  {
+    "Name": "Protein Farm",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "SubmissionSource": "Akashra",
+    "Time": "21m06s",
+    "UpgradePower": 900,
+    "UpgradeOutput": 3600,
+    "XP": 91000,
+    "Mutant Crystals": 10416
+  },
+  {
+    "Name": "Protein Farm",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "SubmissionSource": "Akashra",
+    "Time": "31m39s",
+    "UpgradePower": 1300,
+    "UpgradeOutput": 4320,
+    "XP": 140000,
+    "Mutant Crystals": 15624
+  },
+  {
+    "Name": "Protein Farm",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "SubmissionSource": "Akashra",
+    "Time": "47m28s",
+    "UpgradePower": 1800,
+    "UpgradeOutput": 5040,
+    "XP": 210000,
+    "Mutant Crystals": 23436
+  },
+  {
+    "Name": "Protein Farm",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 7,
+    "ToLevel": 8,
+    "SubmissionSource": "Akashra",
+    "Time": "1h11m12s",
+    "UpgradePower": 2400,
+    "UpgradeOutput": 5760,
+    "XP": 310000,
+    "Mutant Crystals": 35154
+  },
+  {
+    "Name": "Protein Farm",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 8,
+    "ToLevel": 9,
+    "SubmissionSource": "Akashra",
+    "Time": "1h46m48s",
+    "UpgradePower": 3200,
+    "UpgradeOutput": 6480,
+    "XP": 460000,
+    "Mutant Crystals": 52731
+  },
+  {
+    "Name": "Protein Farm",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 9,
+    "ToLevel": 10,
+    "SubmissionSource": "Akashra",
+    "Time": "2h40m11s",
+    "UpgradePower": 4200,
+    "UpgradeOutput": 7200,
+    "XP": 690000,
+    "Mutant Crystals": 79143
+  },
+  {
+    "Name": "Protein Farm",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 10,
+    "ToLevel": 11,
+    "SubmissionSource": "Akashra",
+    "Time": "2h56m12s",
+    "UpgradePower": 5200,
+    "UpgradeOutput": 7920,
+    "XP": 900000,
+    "Mutant Crystals": 87048
+  },
+  {
+    "Name": "Protein Farm",
+    "Building Prerequisite": "Lv. 10 Headquarters",
+    "FromLevel": 11,
+    "ToLevel": 12,
+    "SubmissionSource": "Akashra",
+    "Time": "3h13m50s",
+    "UpgradePower": 6300,
+    "UpgradeOutput": 8640,
+    "XP": 1200000,
+    "Mutant Crystals": 95697
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 12,
+    "ToLevel": 13,
+    "SubmissionSource": "Akashra",
+    "Time": "3h33m13s",
+    "UpgradePower": 7400,
+    "UpgradeOutput": 9360,
+    "XP": 1500000,
+    "Mutant Crystals": 105276
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 13,
+    "ToLevel": 14,
+    "SubmissionSource": "Akashra",
+    "Time": "03h54m32s",
+    "UpgradePower": 8600,
+    "UpgradeOutput": 10080,
+    "XP": 2000000,
+    "Mutant Crystals": 115163
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 14,
+    "ToLevel": 15
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 15,
+    "ToLevel": 16
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 16,
+    "ToLevel": 17
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 17,
+    "ToLevel": 18
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 18,
+    "ToLevel": 19
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 19,
+    "ToLevel": 20
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 20,
+    "ToLevel": 21
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 21,
+    "ToLevel": 22
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 22,
+    "ToLevel": 23
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 23,
+    "ToLevel": 24
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 24,
+    "ToLevel": 25
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 25,
+    "ToLevel": 26
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 26,
+    "ToLevel": 27
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 27,
+    "ToLevel": 28
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 28,
+    "ToLevel": 29
+  },
+  {
+    "Name": "Protein Farm",
+    "FromLevel": 29,
+    "ToLevel": 30
+  },
+  {
+    "Name": "Protein Farm II",
+    "Template": "Protein Farm",
+    "Building Prerequisite": "Lv 5 Protein Farm I",
+    "ToLevel": 1,
+    "SubmissionSource": "Akashra"
+  },
+  {
+    "Name": "Protein Farm II",
+    "Template": "Protein Farm",
+    "Building Prerequisite": "Lv 5 Protein Farm I",
+    "FromLevel": 1,
+    "ToLevel": 2,
+    "SubmissionSource": "Akashra"
+  },
+  {
+    "Name": "Protein Farm II",
+    "Template": "Protein Farm",
+    "Building Prerequisite": "Lv 5 Protein Farm I",
+    "FromLevel": 2,
+    "ToLevel": 3,
+    "SubmissionSource": "Akashra"
+  },
+  {
+    "Name": "Protein Farm II",
+    "Template": "Protein Farm",
+    "Building Prerequisite": "Lv 5 Protein Farm I",
+    "FromLevel": 3,
+    "ToLevel": 4,
+    "SubmissionSource": "Akashra"
+  },
+  {
+    "Name": "Protein Farm II",
+    "Template": "Protein Farm",
+    "Building Prerequisite": "Lv 5 Protein Farm I",
+    "FromLevel": 4,
+    "ToLevel": 5,
+    "SubmissionSource": "Akashra"
+  },
+  {
+    "Name": "Protein Farm II",
+    "Template": "Protein Farm",
+    "FromLevel": 5,
+    "ToLevel": 6,
+    "SubmissionSource": "Akashra"
+  },
+  {
+    "Name": "Protein Farm II",
+    "Template": "Protein Farm",
+    "FromLevel": 6,
+    "ToLevel": 7,
+    "SubmissionSource": "Akashra"
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 7,
+    "ToLevel": 8
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 8,
+    "ToLevel": 9
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 9,
+    "ToLevel": 10
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 10,
+    "ToLevel": 11
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 11,
+    "ToLevel": 12
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 12,
+    "ToLevel": 13
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 13,
+    "ToLevel": 14
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 14,
+    "ToLevel": 15
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 15,
+    "ToLevel": 16
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 16,
+    "ToLevel": 17
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 17,
+    "ToLevel": 18
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 18,
+    "ToLevel": 19
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 19,
+    "ToLevel": 20
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 20,
+    "ToLevel": 21
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 21,
+    "ToLevel": 22
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 22,
+    "ToLevel": 23
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 23,
+    "ToLevel": 24
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 24,
+    "ToLevel": 25
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 25,
+    "ToLevel": 26
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 26,
+    "ToLevel": 27
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 27,
+    "ToLevel": 28
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 28,
+    "ToLevel": 29
+  },
+  {
+    "Name": "Protein Farm II",
+    "FromLevel": 29,
+    "ToLevel": 30
+  }
+]

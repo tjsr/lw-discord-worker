@@ -14,7 +14,6 @@ export default class LWConfig extends CommandGroup {
   }
 
   private async validateOption(context: SlashCommandContext, option: APIApplicationCommandInteractionDataStringOption): Promise<boolean> {
-
     if (!this._config) {
       return context.reply(new MessageBuilder().setContent(`Config manager is not correctly configured.`)).then(() => false);
     }  

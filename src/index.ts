@@ -117,19 +117,18 @@ export default {
       });
     } catch (err) {
       if (err instanceof UnauthorizedInteraction) {
+        console.warn("Got unauthorised interaction:", err);
         return new Response("Invalid request", { status: 401 });
       }
 
       if (err instanceof InteractionHandlerNotFound) {
         console.error("Interaction Handler Not Found:", err);
-
-        new Response("Invalid request", { status: 404 });
+        return new Response("Invalid request", { status: 404 });
       }
 
       if (err instanceof InteractionHandlerTimedOut) {
         console.error("Interaction Handler Timed Out");
-
-        new Response("Timed Out", { status: 408 });
+        return new Response("Timed Out", { status: 408 });
       }
 
       if (
@@ -138,14 +137,12 @@ export default {
         err instanceof UnknownComponentType
       ) {
         console.error("Unknown Interaction - Library may be out of date.");
-
-        new Response("Server Error", { status: 500 });
+        return new Response("Server Error", { status: 500 });
       }
 
       if (err instanceof InteractionHandlerError) {
         console.error("Interaction Handler Error: ", err);
-
-        new Response("Server Error", { status: 500 });
+        return new Response("Server Error", { status: 500 });
       }
 
       console.error(err);

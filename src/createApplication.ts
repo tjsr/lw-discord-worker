@@ -3,7 +3,7 @@ import { DiscordApplication, DiscordApplicationOptions, SyncMode } from "@discor
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const createDiscordApplication = (clientId: string, token: string, publicKey: string, cache: Map<string, any>, syncMode: SyncMode = SyncMode.Disabled) => {
   if (syncMode !== SyncMode.Disabled) {
-    console.warn(`SyncMode is ${syncMode === SyncMode.Strict ? "strict" : "enabled"} - commands will be updated!`);
+    console.log(`SyncMode is ${syncMode === SyncMode.Strict ? "strict" : "enabled"} - commands will be updated!`);
   }
   const applicationOptions: DiscordApplicationOptions = {
     clientId: clientId,

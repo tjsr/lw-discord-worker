@@ -1,0 +1,1020 @@
+[
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Radar",
+    "UpgradeLevel": 1,
+    "ResearchResourceReduction": -0.015,
+    "Stat1Value": 5
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Radar",
+    "UpgradeLevel": 2,
+    "Stat1Value": 10
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Radar",
+    "UpgradeLevel": 3,
+    "Stat1Value": 15
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Radar",
+    "UpgradeLevel": 4,
+    "Stat1Value": 20
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Radar",
+    "UpgradeLevel": 5,
+    "Stat1Value": 25
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Radar",
+    "UpgradeLevel": 6,
+    "Stat1Value": 30
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Radar",
+    "UpgradeLevel": 7,
+    "Stat1Value": 35
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Radar",
+    "UpgradeLevel": 8,
+    "Stat1Value": 40
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Radar",
+    "UpgradeLevel": 9,
+    "Stat1Value": 45
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Radar",
+    "UpgradeLevel": 10,
+    "Stat1Value": 50
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Speedup",
+    "UpgradeLevel": 1,
+    "Stat1Value": 5
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Speedup",
+    "UpgradeLevel": 2,
+    "Stat1Value": 10
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Speedup",
+    "UpgradeLevel": 3,
+    "Stat1Value": 15
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Speedup",
+    "UpgradeLevel": 4,
+    "Stat1Value": 20
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Speedup",
+    "UpgradeLevel": 5,
+    "Stat1Value": 25
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Speedup",
+    "UpgradeLevel": 6,
+    "Stat1Value": 30
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Speedup",
+    "UpgradeLevel": 7,
+    "Stat1Value": 35
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Speedup",
+    "UpgradeLevel": 8,
+    "Stat1Value": 40
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Speedup",
+    "UpgradeLevel": 9,
+    "Stat1Value": 45
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Speedup",
+    "UpgradeLevel": 10,
+    "Stat1Value": 50
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Recruitment",
+    "UpgradeLevel": 1,
+    "Stat1Value": 5
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Recruitment",
+    "UpgradeLevel": 2,
+    "Stat1Value": 10
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Recruitment",
+    "UpgradeLevel": 3,
+    "Stat1Value": 15
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Recruitment",
+    "UpgradeLevel": 4,
+    "Stat1Value": 20
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Recruitment",
+    "UpgradeLevel": 5,
+    "Stat1Value": 25
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Recruitment",
+    "UpgradeLevel": 6,
+    "Stat1Value": 30
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Recruitment",
+    "UpgradeLevel": 7,
+    "Stat1Value": 35
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Recruitment",
+    "UpgradeLevel": 8,
+    "Stat1Value": 40
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Recruitment",
+    "UpgradeLevel": 9,
+    "Stat1Value": 45
+  },
+  {
+    "Tree": "Alliance Duel",
+    "ResearchItem": "Incentive - Recruitment",
+    "UpgradeLevel": 10,
+    "Stat1Value": 50
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Terminator II",
+    "Power": 2600,
+    "TechCenterRequirement": 15,
+    "UpgradeLevel": 1,
+    "Stat1Name": "Heroes in your troop inflict more damage on monsters.",
+    "Stat1Value": 0.01
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Terminator II",
+    "Power": 5600,
+    "TechCenterRequirement": 16,
+    "UpgradeLevel": 2,
+    "Stat1Name": "Heroes in your troop inflict more damage on monsters.",
+    "Stat1Value": 0.02
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Terminator II",
+    "Power": 9600,
+    "TechCenterRequirement": 17,
+    "UpgradeLevel": 3,
+    "Stat1Name": "Heroes in your troop inflict more damage on monsters.",
+    "Stat1Value": 0.03
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Terminator II",
+    "Power": 14200,
+    "TechCenterRequirement": 18,
+    "UpgradeLevel": 4,
+    "Stat1Name": "Heroes in your troop inflict more damage on monsters.",
+    "Stat1Value": 0.04,
+    "Iron": 2900000,
+    "Food": 2900000,
+    "Coins": 8700000,
+    "Time": "3d12h14m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Terminator II",
+    "Power": 20300,
+    "TechCenterRequirement": 19,
+    "UpgradeLevel": 5,
+    "Stat1Name": "Heroes in your troop inflict more damage on monsters.",
+    "Stat1Value": 0.05,
+    "Iron": 5100000,
+    "Food": 5100000,
+    "Coins": 15300000,
+    "Time": "5d14h45m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Virus Resistance II",
+    "Power": 2600,
+    "TechCenterRequirement": 15,
+    "UpgradeLevel": 1,
+    "Stat1Name": "Heroes in your troop receive reduced damage from monsters.",
+    "Stat1Value": 0.01
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Virus Resistance II",
+    "Power": 5600,
+    "TechCenterRequirement": 16,
+    "UpgradeLevel": 2,
+    "Stat1Name": "Heroes in your troop receive reduced damage from monsters.",
+    "Stat1Value": 0.02
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Virus Resistance II",
+    "Power": 9600,
+    "TechCenterRequirement": 17,
+    "UpgradeLevel": 3,
+    "Stat1Name": "Heroes in your troop receive reduced damage from monsters.",
+    "Stat1Value": 0.03
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Virus Resistance II",
+    "Power": 14200,
+    "TechCenterRequirement": 18,
+    "UpgradeLevel": 4,
+    "Stat1Name": "Heroes in your troop receive reduced damage from monsters.",
+    "Stat1Value": 0.04,
+    "Iron": 2900000,
+    "Food": 2900000,
+    "Coins": 8700000,
+    "Time": "3d12h14m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Virus Resistance II",
+    "Power": 20300,
+    "TechCenterRequirement": 19,
+    "UpgradeLevel": 5,
+    "Stat1Name": "Heroes in your troop receive reduced damage from monsters.",
+    "Stat1Value": 0.05,
+    "Iron": 5100000,
+    "Food": 5100000,
+    "Coins": 15300000,
+    "Time": "5d14h45m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Assault Training II",
+    "Power": 3000,
+    "TechCenterRequirement": 16,
+    "UpgradeLevel": 1,
+    "Stat1Name": "Boost the Attack for heroes in your troop.",
+    "Stat1Value": 0.01
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Assault Training II",
+    "Power": 7000,
+    "TechCenterRequirement": 17,
+    "UpgradeLevel": 2,
+    "Stat1Name": "Boost the Attack for heroes in your troop.",
+    "Stat1Value": 0.02
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Assault Training II",
+    "Power": 11600,
+    "TechCenterRequirement": 18,
+    "UpgradeLevel": 3,
+    "Stat1Name": "Boost the Attack for heroes in your troop.",
+    "Stat1Value": 0.03,
+    "Iron": 2900000,
+    "Food": 2900000,
+    "Coins": 8700000,
+    "Time": "3d12h14m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Assault Training II",
+    "Power": 17700,
+    "TechCenterRequirement": 19,
+    "UpgradeLevel": 4,
+    "Stat1Name": "Boost the Attack for heroes in your troop.",
+    "Stat1Value": 0.04,
+    "Iron": 5100000,
+    "Food": 5100000,
+    "Coins": 15300000,
+    "Time": "5d14h45m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Assault Training II",
+    "Power": 24400,
+    "TechCenterRequirement": 20,
+    "UpgradeLevel": 5,
+    "Stat1Name": "Boost the Attack for heroes in your troop.",
+    "Stat1Value": 0.05,
+    "Iron": 6100000,
+    "Food": 6100000,
+    "Coins": 18400000,
+    "Time": "8d10h08m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Formation Training II",
+    "Power": 3000,
+    "TechCenterRequirement": 16,
+    "UpgradeLevel": 1,
+    "Stat1Name": "Boost the Defense for heroes in your troop.",
+    "Stat1Value": 0.01
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Formation Training II",
+    "Power": 7000,
+    "TechCenterRequirement": 17,
+    "UpgradeLevel": 2,
+    "Stat1Name": "Boost the Defense for heroes in your troop.",
+    "Stat1Value": 0.02
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Formation Training II",
+    "Power": 11600,
+    "TechCenterRequirement": 18,
+    "UpgradeLevel": 3,
+    "Stat1Name": "Boost the Defense for heroes in your troop.",
+    "Stat1Value": 0.03,
+    "Iron": 2900000,
+    "Food": 2900000,
+    "Coins": 8700000,
+    "Time": "3d12h14m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Formation Training II",
+    "Power": 17700,
+    "TechCenterRequirement": 19,
+    "UpgradeLevel": 4,
+    "Stat1Name": "Boost the Defense for heroes in your troop.",
+    "Stat1Value": 0.04,
+    "Iron": 5100000,
+    "Food": 5100000,
+    "Coins": 15300000,
+    "Time": "5d14h45m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Formation Training II",
+    "Power": 24400,
+    "TechCenterRequirement": 20,
+    "UpgradeLevel": 5,
+    "Stat1Name": "Boost the Defense for heroes in your troop.",
+    "Stat1Value": 0.05,
+    "Iron": 6100000,
+    "Food": 6100000,
+    "Coins": 18400000,
+    "Time": "8d10h08m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Survival Training II",
+    "Power": 3000,
+    "TechCenterRequirement": 16,
+    "UpgradeLevel": 1,
+    "Stat1Name": "Boost the HP for heroes in your troop.",
+    "Stat1Value": 0.01
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Survival Training II",
+    "Power": 7000,
+    "TechCenterRequirement": 17,
+    "UpgradeLevel": 2,
+    "Stat1Name": "Boost the HP for heroes in your troop.",
+    "Stat1Value": 0.02
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Survival Training II",
+    "Power": 11600,
+    "TechCenterRequirement": 18,
+    "UpgradeLevel": 3,
+    "Stat1Name": "Boost the HP for heroes in your troop.",
+    "Stat1Value": 0.03,
+    "Iron": 2900000,
+    "Food": 2900000,
+    "Coins": 8700000,
+    "Time": "3d12h14m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Survival Training II",
+    "Power": 17700,
+    "TechCenterRequirement": 19,
+    "UpgradeLevel": 4,
+    "Stat1Name": "Boost the HP for heroes in your troop.",
+    "Stat1Value": 0.04,
+    "Iron": 5100000,
+    "Food": 5100000,
+    "Coins": 15300000,
+    "Time": "5d14h45m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Survival Training II",
+    "Power": 24400,
+    "TechCenterRequirement": 20,
+    "UpgradeLevel": 5,
+    "Stat1Name": "Boost the HP for heroes in your troop.",
+    "Stat1Value": 0.05,
+    "Iron": 6100000,
+    "Food": 6100000,
+    "Coins": 18400000,
+    "Time": "8d10h08m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Resource Reaper II",
+    "Power": 4000,
+    "TechCenterRequirement": 17,
+    "UpgradeLevel": 1,
+    "Stat1Name": "Boost Squad March Speed against Resource Tiles",
+    "Stat1Value": 0.04
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Resource Reaper II",
+    "Power": 8600,
+    "TechCenterRequirement": 18,
+    "UpgradeLevel": 2,
+    "Stat1Name": "Boost Squad March Speed against Resource Tiles",
+    "Stat1Value": 0.08
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Resource Reaper II",
+    "Power": 14700,
+    "TechCenterRequirement": 19,
+    "UpgradeLevel": 3,
+    "Stat1Name": "Boost Squad March Speed against Resource Tiles",
+    "Stat1Value": 0.12
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Resource Reaper II",
+    "Power": 21400,
+    "TechCenterRequirement": 20,
+    "UpgradeLevel": 4,
+    "Stat1Name": "Boost Squad March Speed against Resource Tiles",
+    "Stat1Value": 0.16,
+    "Iron": 6100000,
+    "Food": 6100000,
+    "Coins": 18400000,
+    "Time": "8d10h08m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Resource Reaper II",
+    "Power": 30300,
+    "TechCenterRequirement": 21,
+    "UpgradeLevel": 5,
+    "Stat1Name": "Boost Squad March Speed against Resource Tiles",
+    "Stat1Value": 0.2
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Power Boost II",
+    "Power": 4000,
+    "TechCenterRequirement": 17,
+    "UpgradeLevel": 1,
+    "Stat1Name": "Troop's Load",
+    "Stat1Value": 0.03
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Power Boost II",
+    "Power": 8600,
+    "TechCenterRequirement": 18,
+    "UpgradeLevel": 2,
+    "Stat1Name": "Troop's Load",
+    "Stat1Value": 0.06
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Power Boost II",
+    "Power": 14700,
+    "TechCenterRequirement": 19,
+    "UpgradeLevel": 3,
+    "Stat1Name": "Troop's Load",
+    "Stat1Value": 0.09
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Power Boost II",
+    "Power": 21400,
+    "TechCenterRequirement": 20,
+    "UpgradeLevel": 4,
+    "Stat1Name": "Troop's Load",
+    "Stat1Value": 0.12,
+    "Iron": 6100000,
+    "Food": 6100000,
+    "Coins": 18400000,
+    "Time": "8d10h08m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Power Boost II",
+    "Power": 30300,
+    "TechCenterRequirement": 21,
+    "UpgradeLevel": 5,
+    "Stat1Name": "Troop's Load",
+    "Stat1Value": 0.15
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Zombie Radar II",
+    "Power": 4600,
+    "TechCenterRequirement": 18,
+    "UpgradeLevel": 1,
+    "Stat1Name": "Boost Squad March Speed against Zombies",
+    "Stat1Value": 0.02
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Zombie Radar II",
+    "Power": 10700,
+    "TechCenterRequirement": 19,
+    "UpgradeLevel": 2,
+    "Stat1Name": "Boost Squad March Speed against Zombies",
+    "Stat1Value": 0.04,
+    "Iron": 5100000,
+    "Food": 5100000,
+    "Coins": 15300000,
+    "Time": "5d14h45m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Zombie Radar II",
+    "Power": 17400,
+    "TechCenterRequirement": 20,
+    "UpgradeLevel": 3,
+    "Stat1Name": "Boost Squad March Speed against Zombies",
+    "Stat1Value": 0.06,
+    "Iron": 6100000,
+    "Food": 6100000,
+    "Coins": 18400000,
+    "Time": "8d10h08m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Zombie Radar II",
+    "Power": 26300,
+    "TechCenterRequirement": 21,
+    "UpgradeLevel": 4,
+    "Stat1Name": "Boost Squad March Speed against Zombies",
+    "Stat1Value": 0.08
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Zombie Radar II",
+    "Power": 36800,
+    "TechCenterRequirement": 22,
+    "UpgradeLevel": 5,
+    "Stat1Name": "Boost Squad March Speed against Zombies",
+    "Stat1Value": 0.1
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Assault Tactics II",
+    "Power": 4600,
+    "TechCenterRequirement": 18,
+    "UpgradeLevel": 1,
+    "Stat1Name": "Boost Squad March Speed against Commanders",
+    "Stat1Value": 0.02
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Assault Tactics II",
+    "Power": 10700,
+    "TechCenterRequirement": 19,
+    "UpgradeLevel": 2,
+    "Stat1Name": "Boost Squad March Speed against Commanders",
+    "Stat1Value": 0.04,
+    "Iron": 5100000,
+    "Food": 5100000,
+    "Coins": 15300000,
+    "Time": "5d14h45m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Assault Tactics II",
+    "Power": 17400,
+    "TechCenterRequirement": 20,
+    "UpgradeLevel": 3,
+    "Stat1Name": "Boost Squad March Speed against Commanders",
+    "Stat1Value": 0.06,
+    "Iron": 6100000,
+    "Food": 6100000,
+    "Coins": 18400000,
+    "Time": "8d10h08m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Assault Tactics II",
+    "Power": 26300,
+    "TechCenterRequirement": 21,
+    "UpgradeLevel": 4,
+    "Stat1Name": "Boost Squad March Speed against Commanders",
+    "Stat1Value": 0.08
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Assault Tactics II",
+    "Power": 36800,
+    "TechCenterRequirement": 22,
+    "UpgradeLevel": 5,
+    "Stat1Name": "Boost Squad March Speed against Commanders",
+    "Stat1Value": 0.1
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Fast exploration II",
+    "Power": 4600,
+    "TechCenterRequirement": 18,
+    "UpgradeLevel": 1,
+    "Stat1Name": "Boost Squad March Speed against Resource Tiles",
+    "Stat1Value": 0.1
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Fast exploration II",
+    "Power": 10700,
+    "TechCenterRequirement": 19,
+    "UpgradeLevel": 2,
+    "Stat1Name": "Boost Squad March Speed against Resource Tiles",
+    "Stat1Value": 0.2,
+    "Iron": 5100000,
+    "Food": 5100000,
+    "Coins": 15300000,
+    "Time": "5d14h45m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Fast exploration II",
+    "Power": 17400,
+    "TechCenterRequirement": 20,
+    "UpgradeLevel": 3,
+    "Stat1Name": "Boost Squad March Speed against Resource Tiles",
+    "Stat1Value": 0.3,
+    "Iron": 6100000,
+    "Food": 6100000,
+    "Coins": 18400000,
+    "Time": "8d10h08m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Fast exploration II",
+    "Power": 26300,
+    "TechCenterRequirement": 21,
+    "UpgradeLevel": 4,
+    "Stat1Name": "Boost Squad March Speed against Resource Tiles",
+    "Stat1Value": 0.4
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Fast exploration II",
+    "Power": 36800,
+    "TechCenterRequirement": 22,
+    "UpgradeLevel": 5,
+    "Stat1Name": "Boost Squad March Speed against Resource Tiles",
+    "Stat1Value": 0.5
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Rapid March II",
+    "Power": 4600,
+    "TechCenterRequirement": 18,
+    "UpgradeLevel": 1,
+    "Stat1Name": "Boost Squad General March Speed",
+    "Stat1Value": 0.01
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Rapid March II",
+    "Power": 10700,
+    "TechCenterRequirement": 19,
+    "UpgradeLevel": 2,
+    "Stat1Name": "Boost Squad General March Speed",
+    "Stat1Value": 0.02,
+    "Iron": 5100000,
+    "Food": 5100000,
+    "Coins": 15300000,
+    "Time": "5d14h45m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Rapid March II",
+    "Power": 17400,
+    "TechCenterRequirement": 20,
+    "UpgradeLevel": 3,
+    "Stat1Name": "Boost Squad General March Speed",
+    "Stat1Value": 0.03,
+    "Iron": 6100000,
+    "Food": 6100000,
+    "Coins": 18400000,
+    "Time": "8d10h08m00s"
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Rapid March II",
+    "Power": 26300,
+    "TechCenterRequirement": 21,
+    "UpgradeLevel": 4,
+    "Stat1Name": "Boost Squad General March Speed",
+    "Stat1Value": 0.04
+  },
+  {
+    "Tree": "Garage 2",
+    "ResearchItem": "Rapid March II",
+    "Power": 36800,
+    "TechCenterRequirement": 22,
+    "UpgradeLevel": 5,
+    "Stat1Name": "Boost Squad General March Speed",
+    "Stat1Value": 0.05
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Terminator III",
+    "Power": 6700,
+    "TechCenterRequirement": 20,
+    "UpgradeLevel": 1,
+    "Stat1Name": "Heroes in your troop inflict more damage on monsters.",
+    "Stat1Value": 0.01,
+    "Iron": 6100000,
+    "Food": 6100000,
+    "Coins": 18400000,
+    "Time": "8d10h08m00s"
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Terminator III",
+    "Power": 15600,
+    "TechCenterRequirement": 21,
+    "UpgradeLevel": 2,
+    "Stat1Name": "Heroes in your troop inflict more damage on monsters.",
+    "Stat1Value": 0.02
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Terminator III",
+    "Power": 26100,
+    "TechCenterRequirement": 22,
+    "UpgradeLevel": 3,
+    "Stat1Name": "Heroes in your troop inflict more damage on monsters.",
+    "Stat1Value": 0.03
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Terminator III",
+    "Power": 38100,
+    "TechCenterRequirement": 23,
+    "UpgradeLevel": 4,
+    "Stat1Name": "Heroes in your troop inflict more damage on monsters.",
+    "Stat1Value": 0.04
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Terminator III",
+    "Power": 51500,
+    "TechCenterRequirement": 24,
+    "UpgradeLevel": 5,
+    "Stat1Name": "Heroes in your troop inflict more damage on monsters.",
+    "Stat1Value": 0.05
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Virus Resistance III",
+    "Prerequisite Technology": "Lv. 1 Terminator III",
+    "Power": 6700,
+    "TechCenterRequirement": 20,
+    "UpgradeLevel": 1,
+    "Stat1Name": "Heroes in your troop receive reduced damage from monsters.",
+    "Stat1Value": 0.01,
+    "Iron": 6100000,
+    "Food": 6100000,
+    "Coins": 18400000,
+    "Time": "8d10h08m00s"
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Virus Resistance III",
+    "Power": 15600,
+    "TechCenterRequirement": 21,
+    "UpgradeLevel": 2,
+    "Stat1Name": "Heroes in your troop receive reduced damage from monsters.",
+    "Stat1Value": 0.02
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Virus Resistance III",
+    "Power": 26100,
+    "TechCenterRequirement": 22,
+    "UpgradeLevel": 3,
+    "Stat1Name": "Heroes in your troop receive reduced damage from monsters.",
+    "Stat1Value": 0.03
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Virus Resistance III",
+    "Power": 38100,
+    "TechCenterRequirement": 23,
+    "UpgradeLevel": 4,
+    "Stat1Name": "Heroes in your troop receive reduced damage from monsters.",
+    "Stat1Value": 0.04
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Virus Resistance III",
+    "Power": 51500,
+    "TechCenterRequirement": 24,
+    "UpgradeLevel": 5,
+    "Stat1Name": "Heroes in your troop receive reduced damage from monsters.",
+    "Stat1Value": 0.05
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Assault Training III",
+    "Prerequisite Technology": "Lv. 2 Virus Resistance III",
+    "Power": 8900,
+    "TechCenterRequirement": 21,
+    "UpgradeLevel": 1,
+    "Stat1Name": "Boost the Attack for heroes in your troop.",
+    "Stat1Value": 0.01,
+    "Iron": 11000000,
+    "Food": 11000000,
+    "Coins": 33100000,
+    "Time": "11d18h59m00s"
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Assault Training III",
+    "Power": 19400,
+    "TechCenterRequirement": 22,
+    "UpgradeLevel": 2,
+    "Stat1Name": "Boost the Attack for heroes in your troop.",
+    "Stat1Value": 0.02
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Assault Training III",
+    "Power": 31400,
+    "TechCenterRequirement": 23,
+    "UpgradeLevel": 3,
+    "Stat1Name": "Boost the Attack for heroes in your troop.",
+    "Stat1Value": 0.03
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Assault Training III",
+    "Power": 44800,
+    "TechCenterRequirement": 24,
+    "UpgradeLevel": 4,
+    "Stat1Name": "Boost the Attack for heroes in your troop.",
+    "Stat1Value": 0.04
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Assault Training III",
+    "Power": 59800,
+    "TechCenterRequirement": 25,
+    "UpgradeLevel": 5,
+    "Stat1Name": "Boost the Attack for heroes in your troop.",
+    "Stat1Value": 0.05
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Formation Training III",
+    "Prerequisite Technology": "Lv. 2 Virus Resistance III",
+    "Power": 8900,
+    "TechCenterRequirement": 21,
+    "UpgradeLevel": 1,
+    "Stat1Name": "Boost the Defense for heroes in your troop.",
+    "Stat1Value": 0.01,
+    "Iron": 11000000,
+    "Food": 11000000,
+    "Coins": 33100000,
+    "Time": "11d18h59m00s"
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Formation Training III",
+    "Power": 19400,
+    "TechCenterRequirement": 22,
+    "UpgradeLevel": 2,
+    "Stat1Name": "Boost the Defense for heroes in your troop.",
+    "Stat1Value": 0.02
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Formation Training III",
+    "Power": 31400,
+    "TechCenterRequirement": 23,
+    "UpgradeLevel": 3,
+    "Stat1Name": "Boost the Defense for heroes in your troop.",
+    "Stat1Value": 0.03
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Formation Training III",
+    "Power": 44800,
+    "TechCenterRequirement": 24,
+    "UpgradeLevel": 4,
+    "Stat1Name": "Boost the Defense for heroes in your troop.",
+    "Stat1Value": 0.04
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Formation Training III",
+    "Power": 59800,
+    "TechCenterRequirement": 25,
+    "UpgradeLevel": 5,
+    "Stat1Name": "Boost the Defense for heroes in your troop.",
+    "Stat1Value": 0.05
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Survival Training III",
+    "Prerequisite Technology": "Lv. 1 Assault Training III",
+    "Prerequisite Technology 2": "Lv. 1 Formation Training III",
+    "Power": 8900,
+    "TechCenterRequirement": 21,
+    "UpgradeLevel": 1,
+    "Stat1Name": "Boost the HP for heroes in your troop.",
+    "Stat1Value": 0.01,
+    "Iron": 11000000,
+    "Food": 11000000,
+    "Coins": 33100000,
+    "Time": "11d18h59m00s"
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Survival Training III",
+    "Power": 19400,
+    "TechCenterRequirement": 22,
+    "UpgradeLevel": 2,
+    "Stat1Name": "Boost the HP for heroes in your troop.",
+    "Stat1Value": 0.02
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Survival Training III",
+    "Power": 31400,
+    "TechCenterRequirement": 23,
+    "UpgradeLevel": 3,
+    "Stat1Name": "Boost the HP for heroes in your troop.",
+    "Stat1Value": 0.03
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Survival Training III",
+    "Power": 44800,
+    "TechCenterRequirement": 24,
+    "UpgradeLevel": 4,
+    "Stat1Name": "Boost the HP for heroes in your troop.",
+    "Stat1Value": 0.04
+  },
+  {
+    "Tree": "Garage 3",
+    "ResearchItem": "Survival Training III",
+    "Power": 59800,
+    "TechCenterRequirement": 25,
+    "UpgradeLevel": 5,
+    "Stat1Name": "Boost the HP for heroes in your troop.",
+    "Stat1Value": 0.05
+  }
+]

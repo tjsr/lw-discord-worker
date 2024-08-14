@@ -4,6 +4,13 @@ export interface Env {
   PUBLIC_KEY: string;
 }
 
+export type BuildingInfoMessageData = {
+  currentBuilding: any;
+  previousBuilding: any;
+  currentLevel: number;
+  previousLevel: number;
+};
+
 export type CommandStatus = {
   id: string;
   name: string;
