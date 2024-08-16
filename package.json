@@ -20,7 +20,8 @@
     "proxy:old": "ssh -R 443:localhost:8787 tunnel.us.ngrok.com http",
     "proxy": "ngrok http --domain=on-seagull-choice.ngrok-free.app 8787",
     "dev": "wrangler dev",
-    "dev:proxy": "wrangler dev & npm run proxy"
+    "dev:proxy": "wrangler dev & npm run proxy",
+    "db:create:dev": "wrangler d1 execute lwdisco-dev-data --file ./scripts/create.sql --local"
   },
   "dependencies": {
     "@discord-interactions/builders": "^0.3.18",
