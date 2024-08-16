@@ -1,6 +1,9 @@
 CREATE TABLE IF NOT EXISTS kvstore (
-    key VARCHAR(64) PRIMARY KEY,
-    value TEXT
+    key TEXT PRIMARY KEY,
+    value TEXT,
+    ttl INTEGER,
+    updated_by TEXT,
+    last_updated INTEGER
 );
 
 CREATE INDEX IF NOT EXISTS idx_kvstore_key ON kvstore(key);
