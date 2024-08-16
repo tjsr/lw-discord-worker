@@ -3,7 +3,7 @@ import { CommandGroupBuilder, MessageBuilder, SlashCommandStringOption, Subcomma
 
 import { APIApplicationCommandInteractionDataStringOption } from "discord-api-types/v10";
 
-export default class LWConfig extends CommandGroup {
+export class LWConfig extends CommandGroup {
   private _config: Map<string, string>;
 
   private async validateConfigConfigured(context: SlashCommandContext): Promise<boolean> {

@@ -8,6 +8,7 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
+import { Building, LWConfig, Ping } from "./commands";
 import {
   DiscordApplication,
   InteractionHandlerError,
@@ -21,16 +22,18 @@ import {
   UnknownInteractionType
 } from "@discord-interactions/core";
 
-import { Building } from "./commands/building";
 import CommandsEndpoint from "./endpoints/commands";
 import { Env } from "./types";
 import FileEndpoint from "./endpoints/file.js";
-import LWConfig from "./commands/lwconfig";
-import { Ping } from "./commands/Ping.js";
+import Router from "./utils/router";
 import Setup from "./endpoints/setup";
 import { createDiscordApplication } from "./createApplication.js";
+import dbtest from "./dbtest";
+import settings from "./utils/discordSettings";
 
-const cache = new Map();
+// import LWConfig from "./commands/lwconfig";
+// import Ping from "./commands";
+
 let globalApp: DiscordApplication;
 
 // if (
@@ -47,39 +50,48 @@ configValues.set("testValue", "some value here");
 
 export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
-    console.log(`Got request to ${request.url}`);
-    const setup = new Setup("/setup");
+    const router = new Router(request);
+    settings({
+      clientId: env.CLIENT_ID,
+      token: env.TOKEN,
+      publicKey: env.PUBLIC_KEY
+    });
 
-    const app: DiscordApplication =
-      globalApp ||
-      createDiscordApplication(
-        env.CLIENT_ID,
-        env.TOKEN,
-        env.PUBLIC_KEY,
-        cache,
-        setup.isRoute(request) ? SyncMode.Enabled : SyncMode.Disabled
-      );
-
-    const commands: CommandsEndpoint = new CommandsEndpoint(app);
-
-    if (setup.isRoute(request) || commands.isRoute(request)) {
-      await commands.listAvailableCommands();
+    if (router.matchesRoute("/setup")) {
+      settings({ syncMode: SyncMode.Enabled });
     }
 
-    const registeredCommands: RegisteredCommand[] = await app.commands.register(
-      new Building(),
-      new Ping(),
-      new LWConfig(configValues)
-    );
+    if (new URL(request.url).pathname === "/dbtest") {
+      return dbtest.fetch(request, env, ctx);
+    }
+    // console.log(`Got index request to ${request.url}`);
+    // const setup = new Setup("/setup");
+    // setup.isRoute(request);
 
-    if (setup.isRoute(request) || commands.isRoute(request)) {
-      await commands.listRegisteredCommands(registeredCommands);
-      await commands.listPostCommands();
+    const app: DiscordApplication = createDiscordApplication();
+
+    router.endpoint(new CommandsEndpoint(app));
+    router.endpoint(new Setup(app, configValues));
+
+    const response = router.call(request, env, ctx);
+    if (response) {
+      return response;
     }
 
-    if (commands.isRoute(request)) {
-      return commands.handle(request, env, ctx);
-    }
+    // if (setup.isRoute(request) || commands.isRoute(request)) {
+    //   await commands.listAvailableCommands();
+    // }
+
+    await app.commands.register(new Building(env.DB), new Ping(), new LWConfig(configValues));
+
+    // if (setup.isRoute(request) || commands.isRoute(request)) {
+    //   await commands.listRegisteredCommands(registeredCommands);
+    //   await commands.listPostCommands();
+    // }
+
+    // if (commands.isRoute(request)) {
+    //   return commands.handle(request, env, ctx);
+    // }
 
     const signature = request.headers.get("x-signature-ed25519");
     const timestamp = request.headers.get("x-signature-timestamp");
@@ -89,10 +101,10 @@ export default {
       return fileHandler.handle(request, env, ctx);
     }
 
-    if (setup.isRoute(request)) {
-      setup.commandStatuses = commands.commandStatuses;
-      return setup.handle(request, env, ctx);
-    }
+    // if (setup.isRoute(request)) {
+    //   setup.commandStatuses = commands.commandStatuses;
+    //   return setup.handle(request, env, ctx);
+    // }
 
     const body = await request.text();
     if (typeof body !== "string" || typeof signature !== "string" || typeof timestamp !== "string") {

@@ -7,11 +7,14 @@ export const getBuildingData = (buildingType: string): any[] => {
 
 const getBuildingForLevel = (building: any[], buildingType: string, level: number): any => {
   const currentBuilding = building.filter((building) => {
-    const levelInt = typeof building.ToLevel === 'string' ? parseInt(building?.ToLevel) || 1 : building.ToLevel;
+    const levelInt = typeof building?.ToLevel === 'string' ? parseInt(building?.ToLevel) || 1 : building?.ToLevel;
     return levelInt === level;
   });
 
   if (!currentBuilding || currentBuilding.length === 0) {
+    if (level === 1) {
+      return undefined;
+    }
     throw new Error(`No building data found for ${buildingType} at level ${level}.`);
   }
   if (currentBuilding?.length > 1) {
@@ -33,7 +36,7 @@ export const getBuildingDataForLevel = (buildingType: string, level: number): Bu
   return {
     currentBuilding: currentBuilding,
     previousBuilding: previousBuilding,
-    currentLevel: currentBuilding.ToLevel,
+    currentLevel: currentBuilding?.ToLevel,
     previousLevel: previousBuilding?.ToLevel
   };
 };

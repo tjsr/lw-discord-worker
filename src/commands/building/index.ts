@@ -11,9 +11,10 @@ import {
   SubcommandOption
 } from "@discord-interactions/builders";
 import { Button, ButtonContext, CommandGroup, SlashCommandContext } from "@discord-interactions/core";
+import { KeyVal, setKeyval } from "../../db/keyval.js";
+import { getBuildingData, getBuildingDataForLevel } from "./data.js";
 
 import { BuildingInfoMessageData } from "../../types/index.js";
-import { getBuildingDataForLevel } from "./data.js";
 
 type BuildingState = {
   buildingLevel: number;
@@ -23,6 +24,7 @@ type BuildingState = {
 };
 
 const MAX_LEVEL = 30;
+const MAX_BUILDING_INSTANCES = 5;
 
 class VerifyButton extends Button {
   constructor() {
@@ -42,7 +44,7 @@ class CorrectionButton extends Button {
   constructor() {
     super(
       "flag",
-      new ButtonBuilder().setLabel("Submit correction").setEmoji({ name: "⚠️" }).setStyle(ButtonStyle.Secondary),
+      new ButtonBuilder().setLabel("Submit correction").setEmoji({ name: "📝" }).setStyle(ButtonStyle.Secondary),
       async (ctx: ButtonContext<BuildingState>): Promise<void> => {
         const now = Date.now();
         const message = `Got objection from user ${ctx.user.id} at ${now}`;
@@ -52,6 +54,23 @@ class CorrectionButton extends Button {
     );
   }
 }
+
+const setActionButtonDisabled = (ctx: ButtonContext<BuildingState>, buttonId: string, disabled: boolean): void => {
+  const actionRow = ctx.message.components?.find((component) => component.type === 1);
+  const buttons = actionRow?.components.filter((component) => component.type === 2);
+
+  if (buttons) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const button = buttons.find((button: any) => button.custom_id.startsWith(buttonId));
+    if (button) {
+      button.disabled = disabled;
+    }
+  }
+};
+
+const setNextDisabled = (ctx: ButtonContext<BuildingState>, disabled: boolean): void => setActionButtonDisabled(ctx, 'building.nextlevel', disabled);
+
+const setPrevDisabled = (ctx: ButtonContext<BuildingState>, disabled: boolean): void => setActionButtonDisabled(ctx, 'building.prevlevel', disabled);
 
 class NextLevelButton extends Button {
   constructor() {
@@ -67,6 +86,10 @@ class NextLevelButton extends Button {
         try {
           const buildings: BuildingInfoMessageData = getBuildingDataForLevel(ctx.state.buildingName, nextLevel);
           const messageBuilder = createBuildingInfoMessage(buildings.currentBuilding, buildings.previousBuilding);
+
+          setNextDisabled(ctx, nextLevel >= MAX_LEVEL);
+          setPrevDisabled(ctx, false);
+
           messageBuilder.setComponents(ctx.message.components);
           return ctx.replyUpdate(messageBuilder);
         } catch (err: any) {
@@ -91,6 +114,10 @@ class PrevLevelButton extends Button {
         try {
           const buildings: BuildingInfoMessageData = getBuildingDataForLevel(ctx.state.buildingName, previousLevel);
           const messageBuilder = createBuildingInfoMessage(buildings.currentBuilding, buildings.previousBuilding);
+
+          setNextDisabled(ctx, false);
+          setPrevDisabled(ctx, previousLevel < 1);
+
           messageBuilder.setComponents(ctx.message.components);
           return ctx.replyUpdate(messageBuilder);
         } catch (err: any) {
@@ -126,6 +153,11 @@ const defaultBuildings = [
   { name: "Virus Research Institute", value: "vri" },
   { name: "Tank Center", value: "tank" },
 ];
+
+const getBuildingNameForType = (type: string): string => {
+  const building = defaultBuildings.find((building) => building.value === type);
+  return building?.name || type;
+};
 
 const defaultBuildingChoices:APIApplicationCommandOptionChoice<string>[] = buildingChoices(defaultBuildings);
 
@@ -210,15 +242,49 @@ const createBuildingInfoMessage = (currentBuilding, prevLevelBuilding): MessageB
   return new MessageBuilder(message);
 };
 
+const safeContextIntValue = (context: SlashCommandContext, optionName: string, defaultValue: number): number => {
+  let option;
+  try {
+    if (!context.hasOption(optionName)) {
+      return defaultValue;
+    }
+    option = context.getIntegerOption(optionName);
+    if (option?.value) {
+      return option.value;
+    }
+    return defaultValue;
+  } catch (err) {
+    console.warn("Failed what trying to get integer option", err);
+    return defaultValue;
+  }
+};
+
 export class Building extends CommandGroup {
-  constructor() {
+  private _db: D1Database
+  constructor(db: D1Database) {
     super(
       new CommandGroupBuilder("building", "A simple config command.")
         .addSubcommands(
           new SubcommandOption("list", "List all known building types."),
           new SubcommandOption("info", "Show details for a building type.")
             .addStringOption(buildingTypeChoices)
-            .addIntegerOption(new SlashCommandIntegerOption("level", "The building level to display stats of.").setRequired(true))
+            .addIntegerOption(
+              new SlashCommandIntegerOption("level", "The building level to display stats of.")
+              .setMinValue(1)
+              .setMaxValue(MAX_LEVEL)
+              .setRequired(true)),
+          new SubcommandOption("have", "Indicate a building type is owned.")
+            .addStringOption(buildingTypeChoices)
+            .addIntegerOption(
+              new SlashCommandIntegerOption("level", "The building level to indicate ownership of.")
+              .setMinValue(1)
+              .setMaxValue(MAX_LEVEL)
+              .setRequired(true))
+            .addIntegerOption(
+              new SlashCommandIntegerOption("number","The index of the building of this level owned.")
+              .setMinValue(1)
+              .setMaxValue(MAX_BUILDING_INSTANCES)
+              .setRequired(false)),
         ),
       {
         list: {
@@ -236,9 +302,49 @@ export class Building extends CommandGroup {
             // const message = `Details for building type ${buildingType.value} at level ${buildingLevel.value}.`;
             // return context.reply(new MessageBuilder(message));
           }
+        },
+        have: {
+          handler: async (context: SlashCommandContext) => {
+            try {
+            if (!context.hasOption("type")) {
+              return context.reply(new MessageBuilder(`No building type provided.`));
+            }  
+            if (!context.hasOption("level")) {
+              return context.reply(new MessageBuilder(`No building type provided.`));
+            }
+            const buildingType = context.getStringOption("type").value;
+            const buildingName = getBuildingNameForType(buildingType);
+
+            const buildingLevel = safeContextIntValue(context, "level", 25);
+            const buildingNumber = safeContextIntValue(context, "number", 1);
+            
+            console.log('Got have request', buildingType, buildingLevel, buildingNumber);
+
+            const user = context.user?.id;
+            //const user = 'foo';
+            const message = `Ok <@${context.user?.id}>, set your ${buildingName} (${buildingNumber}) as being at level ${buildingLevel}.`;
+            const key = `user[${user}].building[${buildingType}][${buildingNumber}]`;
+            
+            return setKeyval(key, { buildingLevel: buildingLevel }, user, this._db).then((result: D1Result<KeyVal>) => {
+              if (result.success) {
+                return context.reply(new MessageBuilder(message));
+              } else {
+                console.log(`Got success=false when storing KeyVal for ${key}`, result);
+                return context.reply(new MessageBuilder(`Failed while trying to store your building info for ${buildingName} at level ${buildingLevel}.`));
+              }
+            }).catch((err) => {
+              console.log(`Failed while trying to write to keyval store for ${key}`, err);
+              throw err;
+            });
+          } catch (haveErr: any) {
+            console.log('Failed while trying to store building info', haveErr);
+            return context.reply(new MessageBuilder(`Failed while trying to store your building info`));
+          }
+          }
         }
       });
       this.components = [new VerifyButton(), new CorrectionButton(), new PrevLevelButton(), new NextLevelButton()];
+      this._db = db;
   }
 
   public buildingInfoHandler = async (ctx: SlashCommandContext): Promise<void> => {

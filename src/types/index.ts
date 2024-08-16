@@ -2,6 +2,7 @@ export interface Env {
   CLIENT_ID: string;
   TOKEN: string;
   PUBLIC_KEY: string;
+  DB: D1Database;
 }
 
 export type BuildingInfoMessageData = {
