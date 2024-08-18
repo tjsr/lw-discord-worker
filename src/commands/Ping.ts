@@ -12,7 +12,7 @@ type TestButtonState = {
   word: string;
 };
 
-export class Ping implements ISlashCommand {
+export class PingCommand implements ISlashCommand {
   public builder = new SlashCommandBuilder("ping", "Simple ping command.");
 
   public handler = async (ctx: SlashCommandContext): Promise<void> => {

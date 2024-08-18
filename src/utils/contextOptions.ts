@@ -16,3 +16,4 @@ export const safeContextIntValue = (context: SlashCommandContext, optionName: st
     return defaultValue;
   }
 };
+

@@ -8,13 +8,11 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
-import { Building, LWConfig, Ping } from "./commands";
 import {
   DiscordApplication,
   InteractionHandlerError,
   InteractionHandlerNotFound,
   InteractionHandlerTimedOut,
-  RegisteredCommand,
   SyncMode,
   UnauthorizedInteraction,
   UnknownApplicationCommandType,
@@ -27,14 +25,13 @@ import { Env } from "./types";
 import FileEndpoint from "./endpoints/file.js";
 import Router from "./utils/router";
 import Setup from "./endpoints/setup";
+import { commandList } from "./commands";
 import { createDiscordApplication } from "./createApplication.js";
 import dbtest from "./dbtest";
 import settings from "./utils/discordSettings";
 
 // import LWConfig from "./commands/lwconfig";
 // import Ping from "./commands";
-
-let globalApp: DiscordApplication;
 
 // if (
 //   process.env["CLIENT_ID"] !== undefined &&
@@ -82,7 +79,18 @@ export default {
     //   await commands.listAvailableCommands();
     // }
 
-    await app.commands.register(new Building(env.DB), new Ping(), new LWConfig(configValues));
+    try {
+      const commands = commandList(env.DB, configValues);
+      await app.commands.register(...commands);
+    } catch (error) {
+      console.error("Error registering commands: ", error);
+      return new Response(JSON.stringify({ success: false }), {
+        headers: {
+          "content-type": "application/json;charset=UTF-8"
+        },
+        status: 500
+      });
+    }
 
     // if (setup.isRoute(request) || commands.isRoute(request)) {
     //   await commands.listRegisteredCommands(registeredCommands);
@@ -153,7 +161,9 @@ export default {
       }
 
       if (err instanceof InteractionHandlerError) {
-        console.error("Interaction Handler Error: ", err);
+        const iErr = err as InteractionHandlerError;
+        const interactionCause = iErr.interaction;
+        console.error("Interaction Handler Error: ", interactionCause.message, iErr.message, err);
         return new Response("Server Error", { status: 500 });
       }
 

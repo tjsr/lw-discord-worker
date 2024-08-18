@@ -1,8 +1,8 @@
-import { Building, LWConfig, Ping } from "../commands";
 import { CommandStatus, Env } from "../types";
 import { DiscordApplication, RegisteredCommand } from "@discord-interactions/core";
 
 import Endpoint from ".";
+import { commandList } from "../commands";
 import { createOrUpdateCommandStats } from "../utils/commandStats";
 
 const configValues: Map<string, string> = new Map();
@@ -38,19 +38,15 @@ export default class CommandsEndpoint extends Endpoint {
   }
 
   constructor(app: DiscordApplication) {
-    super(/^\/commands$/, async (_request: Request, _env: Env, _ctx: ExecutionContext): Promise<Response> => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    super(/^\/commands$/, async (_request: Request, env: Env, _ctx: ExecutionContext): Promise<Response> => {
       await this.listAvailableCommands();
 
-      const registeredCommands: RegisteredCommand[] = await app.commands.register(
-        new Building(),
-        new Ping(),
-        new LWConfig(configValues)
-      );
-  
-        await this.listRegisteredCommands(registeredCommands);
-        await this.listPostCommands();
+      const registeredCommands: RegisteredCommand[] = await app.commands.register(...commandList(env.DB, configValues));
 
-      
+      await this.listRegisteredCommands(registeredCommands);
+      await this.listPostCommands();
+
       return new Response(JSON.stringify(this._commandStatuses), {
         headers: {
           "content-type": "application/json;charset=UTF-8"

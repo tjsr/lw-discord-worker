@@ -22,3 +22,17 @@ export type CommandStatus = {
 };
 
 export type Handler = (request: Request, env: Env, ctx: ExecutionContext) => Promise<Response>;
+export interface TypeLookup {
+  name: string;
+  value: string;
+}
+
+export type RssCrateType = "R" | "SR" | "SSR" | "UR" | "rss";
+
+export type RssCollectionData = {
+  [key in RssCrateType]: number;
+};
+
+export interface UserRss {
+  [key: string]: RssCollectionData;
+}
