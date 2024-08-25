@@ -1,8 +1,16 @@
+import { DiscordApplication } from "@discord-interactions/core";
+import Router from "../utils/router";
+
 export interface Env {
   CLIENT_ID: string;
   TOKEN: string;
   PUBLIC_KEY: string;
   DB: D1Database;
+}
+
+export interface DiscordExecutionContext extends ExecutionContext {
+  discordApp: DiscordApplication;
+  router: Router;
 }
 
 export type BuildingInfoMessageData = {
@@ -21,7 +29,7 @@ export type CommandStatus = {
   availablePost?: boolean;
 };
 
-export type Handler = (request: Request, env: Env, ctx: ExecutionContext) => Promise<Response>;
+export type Handler = (request: Request, env: Env, ctx: DiscordExecutionContext) => Promise<Response>;
 export interface TypeLookup {
   name: string;
   value: string;

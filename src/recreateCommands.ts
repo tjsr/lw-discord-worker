@@ -1,11 +1,6 @@
 import { DiscordApplication, SyncMode } from "@discord-interactions/core";
 
 const cache = new Map();
-export interface Env {
-  CLIENT_ID: string;
-  TOKEN: string;
-  PUBLIC_KEY: string;
-}
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const env: any = process.env;

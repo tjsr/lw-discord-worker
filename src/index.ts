@@ -9,7 +9,6 @@
  */
 
 import {
-  DiscordApplication,
   InteractionHandlerError,
   InteractionHandlerNotFound,
   InteractionHandlerTimedOut,
@@ -21,8 +20,11 @@ import {
 } from "@discord-interactions/core";
 
 import CommandsEndpoint from "./endpoints/commands";
+import { DiscordExecutionContext } from "./types";
 import { Env } from "./types";
 import FileEndpoint from "./endpoints/file.js";
+import RegisterHero from "./endpoints/register/hero";
+import RegisterRss from "./endpoints/register/rss";
 import Router from "./utils/router";
 import Setup from "./endpoints/setup";
 import { commandList } from "./commands";
@@ -45,45 +47,92 @@ import settings from "./utils/discordSettings";
 const configValues: Map<string, string> = new Map();
 configValues.set("testValue", "some value here");
 
+const handleInteractionError = (err: unknown): Response | undefined => {
+  if (err instanceof UnauthorizedInteraction) {
+    console.warn("Got unauthorised interaction:", err);
+    return new Response("Invalid request", { status: 401 });
+  }
+
+  if (err instanceof InteractionHandlerNotFound) {
+    console.error("Interaction Handler Not Found:", err);
+    return new Response("Invalid request", { status: 404 });
+  }
+
+  if (err instanceof InteractionHandlerTimedOut) {
+    console.error("Interaction Handler Timed Out");
+    return new Response("Timed Out", { status: 408 });
+  }
+
+  if (
+    err instanceof UnknownInteractionType ||
+    err instanceof UnknownApplicationCommandType ||
+    err instanceof UnknownComponentType
+  ) {
+    console.error("Unknown Interaction - Library may be out of date.");
+    return new Response("Server Error", { status: 500 });
+  }
+
+  if (err instanceof InteractionHandlerError) {
+    const iErr = err as InteractionHandlerError;
+    const interactionCause = iErr.interaction;
+    console.error("Interaction Handler Error: ", interactionCause.message, iErr.message, err);
+    return new Response("Server Error", { status: 500 });
+  }
+};
+
+const allowSync = true;
+
 export default {
-  async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
-    const router = new Router(request);
+  async fetch(request: Request, env: Env, ctx: DiscordExecutionContext): Promise<Response> {
+    console.debug(`Got index request to ${request.url}`);
+
+    ctx.router = new Router(request);
     settings({
       clientId: env.CLIENT_ID,
       token: env.TOKEN,
       publicKey: env.PUBLIC_KEY
     });
 
-    if (router.matchesRoute("/setup")) {
+    if (ctx.router.matchesRoute("/setup")) {
+      if (allowSync) {
+        settings({ syncMode: SyncMode.Enabled });
+      }
+    }
+    if (allowSync && (ctx.router.matchesRoute("/setup") || ctx.router.matchesRoute(/\/register\/.*/))) {
       settings({ syncMode: SyncMode.Enabled });
     }
 
-    if (new URL(request.url).pathname === "/dbtest") {
-      return dbtest.fetch(request, env, ctx);
+    ctx.discordApp = createDiscordApplication();
+
+    if (ctx.router.matchesRoute("/setup")) {
+      ctx.router.endpoint(new Setup(ctx.discordApp, env.DB, configValues));
+    } else if (ctx.router.matchesRoute(/\/register\/.*/)) {
+      ctx.router.endpoint(new RegisterHero(ctx.discordApp, env.DB, configValues));
+      ctx.router.endpoint(new RegisterRss(ctx.discordApp, env.DB, configValues));
+      // } else if (new URL(request.url).pathname === "/dbtest") {
+      //   return dbtest.fetch(request, env, ctx);
+    } else {
+      ctx.router.to("/dbtest", dbtest.fetch);
+      ctx.router.endpoint(new CommandsEndpoint(ctx.discordApp));
     }
-    // console.log(`Got index request to ${request.url}`);
-    // const setup = new Setup("/setup");
-    // setup.isRoute(request);
 
-    const app: DiscordApplication = createDiscordApplication();
-
-    router.endpoint(new CommandsEndpoint(app));
-    router.endpoint(new Setup(app, configValues));
-
-    const response = router.call(request, env, ctx);
+    const response = ctx.router.call(request, env, ctx);
     if (response) {
       return response;
     }
 
-    // if (setup.isRoute(request) || commands.isRoute(request)) {
-    //   await commands.listAvailableCommands();
-    // }
+    const commands = commandList(env.DB, configValues);
+    let failed = false;
 
-    try {
-      const commands = commandList(env.DB, configValues);
-      await app.commands.register(...commands);
-    } catch (error) {
-      console.error("Error registering commands: ", error);
+    commands.forEach(async (command) => {
+      await ctx.discordApp.commands.register(command).catch((error) => {
+        console.error(`Error registering command ${command.builder.name}: `, error);
+        failed = true;
+      });
+    });
+
+    if (failed) {
+      console.error("One or more commands failed to register, see previous errors.");
       return new Response(JSON.stringify({ success: false }), {
         headers: {
           "content-type": "application/json;charset=UTF-8"
@@ -91,15 +140,6 @@ export default {
         status: 500
       });
     }
-
-    // if (setup.isRoute(request) || commands.isRoute(request)) {
-    //   await commands.listRegisteredCommands(registeredCommands);
-    //   await commands.listPostCommands();
-    // }
-
-    // if (commands.isRoute(request)) {
-    //   return commands.handle(request, env, ctx);
-    // }
 
     const signature = request.headers.get("x-signature-ed25519");
     const timestamp = request.headers.get("x-signature-timestamp");
@@ -109,10 +149,7 @@ export default {
       return fileHandler.handle(request, env, ctx);
     }
 
-    // if (setup.isRoute(request)) {
-    //   setup.commandStatuses = commands.commandStatuses;
-    //   return setup.handle(request, env, ctx);
-    // }
+    if (request.method !== "POST") return new Response("Method not allowed", { status: 405 });
 
     const body = await request.text();
     if (typeof body !== "string" || typeof signature !== "string" || typeof timestamp !== "string") {
@@ -121,7 +158,7 @@ export default {
     }
 
     try {
-      const [getResponse, handling] = await app.handleInteraction(body, signature, timestamp);
+      const [getResponse, handling] = await ctx.discordApp.handleInteraction(body, signature, timestamp);
 
       ctx.waitUntil(handling);
       const response = await getResponse;
@@ -136,35 +173,9 @@ export default {
         }
       });
     } catch (err) {
-      if (err instanceof UnauthorizedInteraction) {
-        console.warn("Got unauthorised interaction:", err);
-        return new Response("Invalid request", { status: 401 });
-      }
-
-      if (err instanceof InteractionHandlerNotFound) {
-        console.error("Interaction Handler Not Found:", err);
-        return new Response("Invalid request", { status: 404 });
-      }
-
-      if (err instanceof InteractionHandlerTimedOut) {
-        console.error("Interaction Handler Timed Out");
-        return new Response("Timed Out", { status: 408 });
-      }
-
-      if (
-        err instanceof UnknownInteractionType ||
-        err instanceof UnknownApplicationCommandType ||
-        err instanceof UnknownComponentType
-      ) {
-        console.error("Unknown Interaction - Library may be out of date.");
-        return new Response("Server Error", { status: 500 });
-      }
-
-      if (err instanceof InteractionHandlerError) {
-        const iErr = err as InteractionHandlerError;
-        const interactionCause = iErr.interaction;
-        console.error("Interaction Handler Error: ", interactionCause.message, iErr.message, err);
-        return new Response("Server Error", { status: 500 });
+      const errorResponse: Response | undefined = handleInteractionError(err);
+      if (errorResponse) {
+        return errorResponse;
       }
 
       console.error(err);

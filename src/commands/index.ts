@@ -1,6 +1,7 @@
 import { BuildingCommand, LWConfigCommand, PingCommand } from "../commands";
 import { Command, ISlashCommand } from "@discord-interactions/core";
 
+import { HeroCommand } from "./hero";
 import { RSSCommand } from "./rss";
 import { VsCommand } from "./vs";
 import { buildingTypeOption } from "../commandOptions";
@@ -24,7 +25,8 @@ export const commandList = (db: D1Database, configValues: Map<string, string>): 
     new PingCommand(),
     new LWConfigCommand(configValues),
     new VsCommand(db),
-    new RSSCommand(db)
+    new RSSCommand(db),
+    new HeroCommand(db)
   ];
   sanityCheckCommands(commandList);
   return commandList;

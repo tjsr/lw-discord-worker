@@ -112,6 +112,32 @@ export const createBuildingInfoMessage = (currentBuilding, prevLevelBuilding): M
   return new MessageBuilder(message);
 };
 
+const createBuildingHaveSubcommand = (buildingTypeOption: SlashCommandStringOption): SubcommandOption =>
+  new SubcommandOption("have", "Indicate a building type is owned.")
+    .addStringOption(buildingTypeOption)
+    .addIntegerOption(
+      new SlashCommandIntegerOption("level", "The building level to indicate ownership of.")
+        .setMinValue(1)
+        .setMaxValue(MAX_LEVEL)
+        .setRequired(true)
+    )
+    .addIntegerOption(
+      new SlashCommandIntegerOption("number", "The index of the building of this level owned.")
+        .setMinValue(1)
+        .setMaxValue(MAX_BUILDING_INSTANCES)
+        .setRequired(false)
+    );
+
+const createBuildingInfoSubcommand = (buildingTypeOption: SlashCommandStringOption): SubcommandOption =>
+  new SubcommandOption("info", "Show details for a building type.")
+    .addStringOption(buildingTypeOption)
+    .addIntegerOption(
+      new SlashCommandIntegerOption("level", "The building level to display stats of.")
+        .setMinValue(1)
+        .setMaxValue(MAX_LEVEL)
+        .setRequired(true)
+    );
+
 export class BuildingCommand extends CommandGroup {
   private _db: D1Database;
   private _buildingTypes: TypeLookup[];
@@ -120,28 +146,8 @@ export class BuildingCommand extends CommandGroup {
     super(
       new CommandGroupBuilder("building", "A simple config command.").addSubcommands(
         new SubcommandOption("list", "List all known building types."),
-        new SubcommandOption("info", "Show details for a building type.")
-          .addStringOption(buildingTypeOption)
-          .addIntegerOption(
-            new SlashCommandIntegerOption("level", "The building level to display stats of.")
-              .setMinValue(1)
-              .setMaxValue(MAX_LEVEL)
-              .setRequired(true)
-          ),
-        new SubcommandOption("have", "Indicate a building type is owned.")
-          .addStringOption(buildingTypeOption)
-          .addIntegerOption(
-            new SlashCommandIntegerOption("level", "The building level to indicate ownership of.")
-              .setMinValue(1)
-              .setMaxValue(MAX_LEVEL)
-              .setRequired(true)
-          )
-          .addIntegerOption(
-            new SlashCommandIntegerOption("number", "The index of the building of this level owned.")
-              .setMinValue(1)
-              .setMaxValue(MAX_BUILDING_INSTANCES)
-              .setRequired(false)
-          )
+        createBuildingInfoSubcommand(buildingTypeOption),
+        createBuildingHaveSubcommand(buildingTypeOption)
       ),
       {
         list: {
