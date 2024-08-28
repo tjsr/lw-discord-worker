@@ -4,8 +4,8 @@ import { Command, ISlashCommand } from "@discord-interactions/core";
 import { HeroCommand } from "./hero";
 import { RSSCommand } from "./rss";
 import { VsCommand } from "./vs";
-import { buildingTypeOption } from "../commandOptions";
 import { defaultBuildings } from "../types/elements";
+import { interactionsBuildingTypeOption } from "../commandOptions";
 
 export { BuildingCommand } from "./building";
 export { PingCommand } from "./Ping.js";
@@ -21,7 +21,7 @@ const sanityCheckCommands = (commands: (Command | ISlashCommand)[]) => {
 
 export const commandList = (db: D1Database, configValues: Map<string, string>): (Command | ISlashCommand)[] => {
   const commandList: (Command | ISlashCommand)[] = [
-    new BuildingCommand(db, defaultBuildings, buildingTypeOption),
+    new BuildingCommand(db, defaultBuildings, interactionsBuildingTypeOption),
     new PingCommand(),
     new LWConfigCommand(configValues),
     new VsCommand(db),

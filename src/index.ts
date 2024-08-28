@@ -152,8 +152,34 @@ export default {
     if (request.method !== "POST") return new Response("Method not allowed", { status: 405 });
 
     const body = await request.text();
+
+    const checkContent = (...checkedValues: string[]): Response | undefined => {
+      if (checkedValues.some((value) => typeof value !== "string")) {
+        return new Response("Invalid request", { status: 400 });
+      }
+      return undefined;
+    };
+
+    const contentCheckErrorMessage: Response | undefined = checkContent(body, signature, timestamp);
+    if (contentCheckErrorMessage) {
+      return contentCheckErrorMessage;
+    }
+
+    if (typeof body !== "string") {
+      console.log("Got a bad request - request body is not a string.", JSON.stringify(body));
+      return new Response("Invalid request", { status: 400 });
+    }
+    if (typeof signature !== "string") {
+      console.log("Got a bad request - signature is not a string", JSON.stringify(body));
+      return new Response("Invalid request", { status: 400 });
+    }
+    if (typeof timestamp !== "string") {
+      console.log("Got a bad request - timestamp is not a string", JSON.stringify(body));
+      return new Response("Invalid request", { status: 400 });
+    }
+
     if (typeof body !== "string" || typeof signature !== "string" || typeof timestamp !== "string") {
-      console.log("Got a bad request");
+      console.log("Got a bad request", JSON.stringify(body));
       return new Response("Invalid request", { status: 400 });
     }
 
