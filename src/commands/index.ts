@@ -19,7 +19,7 @@ const sanityCheckCommands = (commands: (Command | ISlashCommand)[]) => {
   }
 };
 
-export const commandList = (db: D1Database, configValues: Map<string, string>): (Command | ISlashCommand)[] => {
+const diCommandList = (db: D1Database, configValues: Map<string, string>): (Command | ISlashCommand)[] => {
   const commandList: (Command | ISlashCommand)[] = [
     new BuildingCommand(db, defaultBuildings, interactionsBuildingTypeOption),
     new PingCommand(),
@@ -31,3 +31,8 @@ export const commandList = (db: D1Database, configValues: Map<string, string>): 
   sanityCheckCommands(commandList);
   return commandList;
 };
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+
+export const commandList = diCommandList;
+

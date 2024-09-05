@@ -2,30 +2,34 @@
   "name": "discord-interactions-worker",
   "version": "0.0.1",
   "type": "module",
+  "bin": {
+    "register": "bin/register"
+  },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20240806.0",
+    "@cloudflare/workers-types": "^4.20240821.1",
     "@typescript-eslint/eslint-plugin": "^5.17.0",
     "@typescript-eslint/parser": "^5.17.0",
     "prettier": "^3.3.3",
     "rimraf": "^6.0.1",
     "typescript": "^5.5.4",
-    "wrangler": "^3.70.0"
+    "wrangler": "^3.74.0"
   },
   "private": true,
   "scripts": {
+    "types": "wrangler types --experimental-include-runtime",
     "deploy": "wrangler publish",
     "clean": "rimraf dist",
+    "clean:all": "npx rimraf dist node_modules .wrangler/tmp",
     "format": "prettier --write src",
     "lint": "eslint src",
     "proxy:old": "ssh -R 443:localhost:8787 tunnel.us.ngrok.com http",
     "proxy": "ngrok http --domain=on-seagull-choice.ngrok-free.app 8787",
-    "dev": "wrangler dev",
+    "dev": "npm run types && wrangler dev src/index.ts",
     "dev:proxy": "wrangler dev & npm run proxy",
     "db:create:dev": "wrangler d1 execute lwdisco-dev-data --file ./scripts/create.sql --local"
   },
   "dependencies": {
     "@discord-interactions/builders": "^0.3.18",
-    "@discord-interactions/core": "^0.3.19",
-    "discord.js": "^14.15.3"
+    "@discord-interactions/core": "^0.3.19"
   }
 }

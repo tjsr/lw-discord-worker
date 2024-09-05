@@ -32,18 +32,6 @@ import { createDiscordApplication } from "./createApplication.js";
 import dbtest from "./dbtest";
 import settings from "./utils/discordSettings";
 
-// import LWConfig from "./commands/lwconfig";
-// import Ping from "./commands";
-
-// if (
-//   process.env["CLIENT_ID"] !== undefined &&
-//   process.env["TOKEN"] !== undefined &&
-//   process.env["PUBLIC_KEY"] !== undefined
-// ) {
-//   globalApp = createDiscordApplication(process.env.CLIENT_ID, process.env.TOKEN, process.env.PUBLIC_KEY, cache);
-//   await deleteLaunchCommands(globalApp);
-// }
-
 const configValues: Map<string, string> = new Map();
 configValues.set("testValue", "some value here");
 
@@ -78,6 +66,13 @@ const handleInteractionError = (err: unknown): Response | undefined => {
     console.error("Interaction Handler Error: ", interactionCause.message, iErr.message, err);
     return new Response("Server Error", { status: 500 });
   }
+};
+
+const checkContent = (...checkedValues: (string | null)[]): Response | undefined => {
+  if (checkedValues.some((value) => typeof value !== "string")) {
+    return new Response("Invalid request", { status: 400 });
+  }
+  return undefined;
 };
 
 const allowSync = true;
@@ -141,24 +136,21 @@ export default {
       });
     }
 
-    const signature = request.headers.get("x-signature-ed25519");
-    const timestamp = request.headers.get("x-signature-timestamp");
-
     const fileHandler: FileEndpoint = new FileEndpoint();
     if (fileHandler.isRoute(request)) {
       return fileHandler.handle(request, env, ctx);
     }
 
-    if (request.method !== "POST") return new Response("Method not allowed", { status: 405 });
+    if (request.method !== "POST") {
+      console.error(
+        `Finished checking request for non-interaction requests, but got ${request.method} request.  POST required.`
+      );
+      return new Response("Method not allowed", { status: 405 });
+    }
 
+    const signature = request.headers.get("x-signature-ed25519");
+    const timestamp = request.headers.get("x-signature-timestamp");
     const body = await request.text();
-
-    const checkContent = (...checkedValues: string[]): Response | undefined => {
-      if (checkedValues.some((value) => typeof value !== "string")) {
-        return new Response("Invalid request", { status: 400 });
-      }
-      return undefined;
-    };
 
     const contentCheckErrorMessage: Response | undefined = checkContent(body, signature, timestamp);
     if (contentCheckErrorMessage) {
@@ -182,6 +174,7 @@ export default {
       console.log("Got a bad request", JSON.stringify(body));
       return new Response("Invalid request", { status: 400 });
     }
+    console.log(`Handling interaction...`);
 
     try {
       const [getResponse, handling] = await ctx.discordApp.handleInteraction(body, signature, timestamp);
@@ -199,6 +192,7 @@ export default {
         }
       });
     } catch (err) {
+      console.error(`Failure while handling interaction body.`, body);
       const errorResponse: Response | undefined = handleInteractionError(err);
       if (errorResponse) {
         return errorResponse;

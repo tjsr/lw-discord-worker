@@ -23,6 +23,7 @@ export const rssSizeOption = new SlashCommandStringOption(
   .setChoices(...boxSizeCommandOptions)
   .setRequired(false);
 
-export const rssAmountOption = new SubcommandOption(PARAM_AMOUNT, "The amount of resources to be stored.").setRequired(
-  true
-);
+export const rssAmountOption = new SlashCommandStringOption(
+  PARAM_AMOUNT,
+  "The amount of resources to be stored."
+).setRequired(true);

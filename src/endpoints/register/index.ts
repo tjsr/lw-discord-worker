@@ -1,6 +1,7 @@
+import { DiscordExecutionContext, Env } from "../../types/index.js";
+
 import CommandsEndpoint from "../commands.js";
 import { DiscordApplication } from "@discord-interactions/core";
-import { Env } from "../../types/index.js";
 import RegisterHero from "./hero.js";
 import RegisterRss from "./rss.js";
 import Router from "../../utils/router.js";
@@ -14,7 +15,7 @@ configValues.set("testValue", "some value here");
 
 export default {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+  async fetch(request: Request, env: Env, ctx: DiscordExecutionContext): Promise<Response> {
     console.log("Going through register endpoint");
     const router = new Router(request);
     const app: DiscordApplication = createDiscordApplication();

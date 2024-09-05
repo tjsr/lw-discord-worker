@@ -1,7 +1,5 @@
+import { DiscordExecutionContext, Env } from "./types";
 import { KeyVal, getKeyval, setKeyval } from "./db/keyval";
-
-import { DiscordExecutionContext } from "./types";
-import { Env } from "./types";
 
 export default {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars

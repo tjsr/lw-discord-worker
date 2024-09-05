@@ -1,15 +1,28 @@
 {
   "configurations": [
-      {
-          "name": "Wrangler",
-          "type": "node",
-          "request": "attach",
-          "port": 9229,
-          "cwd": "/",
-          "resolveSourceMapLocations": null,
-          "attachExistingChildren": false,
-          "autoAttachChildProcesses": false,
-          "sourceMaps": true // works with or without this line
-      }
+    {
+      "name": "Wrangler",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "cwd": "/",
+      "resolveSourceMapLocations": null,
+      "attachExistingChildren": false,
+      "autoAttachChildProcesses": false,
+      "sourceMaps": true // works with or without this line
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug register-commands",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "program": "${workspaceFolder}/src/utils/register-commands.ts",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "node",
+      "skipFiles": ["<node_internals>/**"],
+      "console": "integratedTerminal"
+    }
   ]
 }

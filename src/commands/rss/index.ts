@@ -1,12 +1,11 @@
-import { APIApplicationCommandBasicOption, APIApplicationCommandOptionChoice } from "discord-api-types/v10";
 import { CommandGroup, SlashCommandContext } from "@discord-interactions/core";
-import { CommandGroupBuilder, SubcommandOption } from "@discord-interactions/builders";
+import { CommandGroupBuilder, SubcommandOption } from "../../discordInteractions";
 import { PARAM_RESOURCE_TYPE, interactionsRssChoicesOption } from "../../commandOptions";
 import { boxSizeCommandOptions, rssAmountOption, rssSizeOption } from "../../commandOptions/resources";
 
+import { APIApplicationCommandOptionChoice } from "discord-api-types/v10";
 import { ResourceValue } from "../../types/resources";
 import { RssCrateType } from "../../types";
-import { ToAPIApplicationCommandOptions } from "@discord-interactions/builders/dist/commands/CommandBuilderBase";
 import { saveUserRss } from "../../db/rss";
 
 export const PARAM_CRATE_SIZE = "cratesize";
@@ -29,12 +28,10 @@ const isValidOption = (optionValue: string, options: APIApplicationCommandOption
 const isValidCrateSize = (crateSize: string, options: APIApplicationCommandOptionChoice<string>[]): boolean =>
   isValidOption(crateSize, options);
 
-const rssSetSubcommand = new SubcommandOption(
-  "set",
-  "Set the number of an RSS type currently possessed."
-).addStringOption(interactionsRssChoicesOption);
-// .addStringOption(rssAmountOption)
-// .addStringOption(rssSizeOption)
+const rssSetSubcommand = new SubcommandOption("set", "Set the number of an RSS type currently possessed.")
+  .addStringOption(interactionsRssChoicesOption)
+  .addStringOption(rssAmountOption)
+  .addStringOption(rssSizeOption);
 
 const hasSubcommandOption = (option: SubcommandOption, name: string, recursive = false): boolean => {
   return (
